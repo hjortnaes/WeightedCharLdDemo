@@ -1,8 +1,11 @@
+# -*- coding: UTF-8 -*-
 '''
 @author: Nils Hjortnaes
 
 Functions for calculating the distance of words
 '''
+
+from ipa_distance import *
 
 class NormCharLevDis(object):
     '''
@@ -15,13 +18,23 @@ class NormCharLevDis(object):
         Constructor
         '''
         
-def get_distance(self, alignment):
+def get_word_distance(self, alignment, norm_dist = 1):
     '''
-    Gets the Unnormalized distance between two aligned strings
+    Gets the distance between two aligned strings
     
-    alignment: A 2D array of aligned Strings
+    @param alignment: A 2D array of aligned Strings
+    @param norm_dist: the distance to normalize the word length by
+    
+    @return: The distance between aligned words
     '''
     distance = 0
+    #make sure the 2D array is the format I think it is
+    print alignment
     for i in alignment.length:
-        distance += 
-        
+        distance += get_ipa_dist(i[0], i[1])
+    return distance / norm_dist
+
+
+
+
+

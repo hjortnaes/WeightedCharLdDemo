@@ -1,12 +1,20 @@
+# -*- coding: UTF-8 -*-
 '''
-Created on Oct 26, 2016
+main.runner
+
+Main function and decision tree
 
 @author: Nils Hjortnaes
+
+@contact: nhjortnaes@gmail.com
 '''
 
-from main.runner import *
+import _csv
+
 from distance import *
-from norm_char_lev_dis import *
+from distance.norm_char_lev_dis import *
+from main.runner import *
+
 
 if __name__ == "__main__":
     
@@ -21,10 +29,10 @@ if __name__ == "__main__":
         print """
         Choose an option:
         (1) Compare Languages
-        (2) Print a Tree
+        (2) Print a Tree (Not yet supported)
         (3) Exit the Program
         """
-        user_in = raw_input()
+        user_in = input()
         
         if user_in == 1:
             lang_compare()
@@ -43,9 +51,16 @@ def lang_compare():
     (2) Max Normalized Character Weighted Levenshtein Distance
     (3) Min Normalized Character Weighted Levenshtein Distance
     """
-    user_in = raw_input()
-    #TODO import files here
+    user_in = input()
+    
+    #import files
+    with open("resources/OneTest.csv") as csvFile:
+        currList = csvFile.next()
+        while len(currList) > 0:
+            print csvFile.next()
     #compare read in files
+    #if (user_in == 1):
+        
     
 def build_tree():
     print """
