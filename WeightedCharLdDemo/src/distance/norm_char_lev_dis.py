@@ -5,7 +5,6 @@
 Functions for calculating the distance of words
 '''
 
-from ipa_distance import *
 from character_map import char_map
 from distance.norm_char_lev_dis import *
 

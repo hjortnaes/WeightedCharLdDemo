@@ -1,0 +1,100 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily2
+11002000000,Proto-Germanic,56.21281,12.0437622070313,10,one,,ainaz,,ainaz,ainaz,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,20,two,,twou,,twoːu,twō(u),,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,30,three,,threjez,,θrejez,þrejez,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,40,four,,fedworez,,fewoːrez,fedwōrez,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,50,five,,fenfe,,fenfe,fenfe,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,60,six,,sexs,,sexs,sexs,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,70,seven,,sebun,,sebun,sebun,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,80,eight,,axtou,,axtoːu,axtōu,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,90,nine,,newun,,newun,newun,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,100,ten,,texun,,texun,texun,,0
+11002000000,Proto-Germanic,56.21281,12.0437622070313,200,hundred,,xundaradan,,xundaradan,xunda-radan,,0
+11111110102,RP,51.75195,-1.25777804851532,10,one,,ainaz,,wɐ̠n,,,0
+11111110102,RP,51.75195,-1.25777804851532,20,two,,twou,,tʰʊuˑ,,,0
+11111110102,RP,51.75195,-1.25777804851532,30,three,,threjez,,θɹɪiˑ,,,0
+11111110102,RP,51.75195,-1.25777804851532,40,four,,fedworez,,fɔː,,,0
+11111110102,RP,51.75195,-1.25777804851532,50,five,,fenfe,,fäˑɪv,,,0
+11111110102,RP,51.75195,-1.25777804851532,60,six,,sexs,,sɪks,,,0
+11111110102,RP,51.75195,-1.25777804851532,70,seven,,sebun,,ˈsɛvə̆n,,,0
+11111110102,RP,51.75195,-1.25777804851532,80,eight,,axtou,,e̞ɪtʰ,,,0
+11111110102,RP,51.75195,-1.25777804851532,90,nine,,newun,,näˑɪn,,,0
+11111110102,RP,51.75195,-1.25777804851532,100,ten,,texun,,tʰɛn,,,0
+11111110102,RP,51.75195,-1.25777804851532,200,hundred,,xundaradan,,ˈhɐ̠ndɹəd,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,10,one,,ainaz,,e̝ːn,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,20,two,,twou,,tʰwɒː,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,30,three,,threjez,,θɾiː,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,40,four,,fedworez,,fɐŭɐ̠ɾ̥,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,50,five,,fenfe,,fɑˑɪv̥,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,60,six,,sexs,,sæ̠ks,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,70,seven,,sebun,,ˈsɪ̠və̝n,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,80,eight,,axtou,,Array,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,90,nine,,newun,,nɐˑiˑn,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,100,ten,,texun,,tʰɛ̝ːn,,,0
+11111230301,"‘Doric’ Scots",57.67554,-2.98249006271362,200,hundred,,xundaradan,,ˈhʌnɐ̠ɾ̥,,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,10,one,,ainaz,,e̞ˑɪn,één,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,20,two,,twou,,tʰve̞ˑɪ,twee,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,30,three,,threjez,,dʁiˑ,drie,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,40,four,,fedworez,,fiˑəʁ̞,vier,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,50,five,,fenfe,,fæɪf,vijf,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,60,six,,sexs,,z̥ɛs,zes,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,70,seven,,sebun,,ˈz̥e̞ɪv̥ə,zeven,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,80,eight,,axtou,,ɑ̈χt,acht,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,90,nine,,newun,,ne̞ɪχə,negen,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,100,ten,,texun,,tʰiˑn,tien,,0
+11131000008,"Dutch (in NL)",52.091,5.12200021743774,200,hundred,,xundaradan,,ˈhʊnˑəɹt,honderd,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,10,one,,ainaz,,ʔɛ̈ɪ̝n,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,20,two,,twou,,tʰvɛ̈ˑɪ̝ˑ,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,30,three,,threjez,,dʁ̞ɛ̈ˑɪ̝ˑ,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,40,four,,fedworez,,fäɪɐ,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,50,five,,fenfe,,fiːf,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,60,six,,sexs,,zəs,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,70,seven,,sebun,,ˈzœːbm̩,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,80,eight,,axtou,,ʔäχ,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,90,nine,,newun,,ˈneːɡŋ̩,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,100,ten,,texun,,tʰäˑɪn,,,0
+11141230509,"Platt: Bargstedt",53.46083,9.44861125946045,200,hundred,,xundaradan,,ˈhʊnɐt,,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,10,one,,ainaz,,ʔeːnt,eent,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,20,two,,twou,,tsveː,zwee,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,30,three,,threjez,,dʀaˑɪ,dräi,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,40,four,,fedworez,,fə̆ɪˑɜ̠,véier,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,50,five,,fenfe,,ˈfɨ̞nəf,fënnef,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,60,six,,sexs,,zɛks,sechs,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,70,seven,,sebun,,ˈziːvən,siwen,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,80,eight,,axtou,,ʔa̠ːχt,aacht,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,90,nine,,newun,,nɪŋ,néng,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,100,ten,,texun,,tsɪŋ,zéng,,0
+11151120109,"Ger. C.: Luxemburg",49.6,6.11666679382324,200,hundred,,xundaradan,,ˈhɔnɐt,honnert,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,10,one,,ainaz,,ʔäɪnts,eins,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,20,two,,twou,,tsväˑe,zwei,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,30,three,,threjez,,dʁäˑe,drei,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,40,four,,fedworez,,fiˑɐ,vier,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,50,five,,fenfe,,fʏɱf,fünf,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,60,six,,sexs,,zɛ̝ks,sechs,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,70,seven,,sebun,,ˈziːbm̩,sieben,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,80,eight,,axtou,,ʔäχt,acht,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,90,nine,,newun,,nɔˑʏn,neun,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,100,ten,,texun,,tseːn,zehn,,0
+11161010008,"Std. German (DE)",51.53389,9.93555641174316,200,hundred,,xundaradan,,ˈhʊndɐt,hundert,,0
+11161960109,Yiddish,40.66417,-73.9386138916016,10,one,,ainaz,,ʔɛ̝ɪn,אײן,ejn,0
+11161960109,Yiddish,40.66417,-73.9386138916016,20,two,,twou,,tsvɛ̝i̞,צװײ,tsvej,0
+11161960109,Yiddish,40.66417,-73.9386138916016,30,three,,threjez,,dɾäˑɪ,דרײַ,draj,0
+11161960109,Yiddish,40.66417,-73.9386138916016,40,four,,fedworez,,fiˑəɾ,פֿיר,fir,0
+11161960109,Yiddish,40.66417,-73.9386138916016,50,five,,fenfe,,fɪnf,פֿינף,finf,0
+11161960109,Yiddish,40.66417,-73.9386138916016,60,six,,sexs,,zɛks,זעקס,zeks,0
+11161960109,Yiddish,40.66417,-73.9386138916016,70,seven,,sebun,,ˈzibən,זיבן,zibn,0
+11161960109,Yiddish,40.66417,-73.9386138916016,80,eight,,axtou,,ʔäχt,אַכט,axt,0
+11161960109,Yiddish,40.66417,-73.9386138916016,90,nine,,newun,,nɛ̝ɪn,נײַן,najn,0
+11161960109,Yiddish,40.66417,-73.9386138916016,100,ten,,texun,,tsɪn,צען,tsen,0
+11161960109,Yiddish,40.66417,-73.9386138916016,200,hundred,,xundaradan,,ˈhundəɾət,הונדערט,hundert,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,10,one,,ainaz,,äɪnts,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,20,two,,twou,,tsväˑɪ,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,30,three,,threjez,,dɾeiˑ,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,40,four,,fedworez,,fiˑɛɾ,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,50,five,,fenfe,,fyːf,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,60,six,,sexs,,seɪks,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,70,seven,,sebun,,ˈseːbɐ,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,80,eight,,axtou,,ʔäˑχt,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,90,nine,,newun,,nyːn,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,100,ten,,texun,,tseːn,,,0
+11161180509,"Ger. U.: Graubünden",46.70013,9.45365142822266,200,hundred,,xundaradan,,ˈhoˑndət,,,0
