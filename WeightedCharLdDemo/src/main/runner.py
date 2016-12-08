@@ -13,9 +13,12 @@ import csv
 import glob
 import sys
 
+from Bio import Seq, pairwise2
+
 from distance import *
 from distance.norm_char_lev_dis import *
 from main.runner import *
+from Bio.FSSP.fssp_rec import align
 
 
 if __name__ == "__main__":
@@ -58,12 +61,24 @@ def lang_compare():
         
         if user_in > 0 and user_in < 4:
             #import files
-            word_sets = read_files()
+            word_sets = __read_files__()
+            dist_matrix = [[0 for y in range(len(word_sets))] for x in range(len(word_sets))]
             
+            #list of languages in order they will be processed - python items() correspond
             languages = word_sets.keys()
-        
-            #compare read in files
-#             norm_char_lev_dis.get_word_distance(alignment, user_in)
+            
+            for i in range(len(word_sets)):
+                for j in range(len(word_sets) - i):
+                    j += i
+                    lang_total = __compare_word_lists__(languages[i] + "_" + languages[j], word_sets[languages[i]], word_sets[languages[j]])
+                    #fill in both halves of matrix
+                    dist_matrix[i][j] = lang_total
+                    dist_matrix[j][i] = lang_total
+                    
+            #write the distance matrix to a file
+            with open(r"reports/language_distances/dist_matrix.txt", 'w') as f:
+                for row in dist_matrix:
+                    f.write("[" + ', '.join(str(i) for i in row) + "]\n")
             return
         else: 
             print "That is not a valid option. Please choose a valid option\n"
@@ -83,7 +98,7 @@ def build_tree():
     user_in = raw_input()
     #Build and print the tree
     
-def read_files():
+def __read_files__():
     '''
     Finds and reads all files in {project-dir}/resources/csv_files and returns a List of all
     sets of words. Assumes that the word list is sorted by language and then word.
@@ -131,13 +146,38 @@ def read_files():
                         
                     #map IPA to plain text word
                     curr_words[row[index_of_word]] = row[index_of_ipa]
-#                     print row[index_of_ipa]
                     
-    print word_sets
-        
-    return word_sets.items()
+    return word_sets
+
+#TODO make this general, is very breakable right now
+def __compare_word_lists__(pair, dict_one, dict_two):
+    '''
+    Assumes both dictionaries are the same length. Calculates the total distance between the two
+    lists and prints the individual word distances to a file in 
+    {project_root}/reports/word_comparisons
     
-    
+    @return the total distance between the languages
+    '''
+    total = 0
+    words = dict_one.keys()
+    #file for writing results
+    print pair
+    with open(r"reports/word_comparisons/" + pair + ".txt", 'w') as f:
+        #get all words in the lists
+        for key in words:
+            
+            #convert to Sequences for alignment
+#             seq_one = Seq(dict_one[key])
+#             seq_two = Seq(dict_two[key])
+            alignment = pairwise2.align.globalxx(dict_one[key], dict_two[key])
+            print alignment
+            f.write(alignment[0][0] + "\n" + alignment[0][1])
+            
+            #compare read in files
+#             dist = norm_char_lev_dis.get_word_distance(alignment, user_in)
+#             f.write("{}: {}").format(key, dist)
+#             total += dist
+    return total
     
     
     
