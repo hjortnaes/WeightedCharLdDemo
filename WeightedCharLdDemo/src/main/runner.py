@@ -12,13 +12,16 @@ Main function and decision tree
 import csv
 import glob
 import sys
+import codecs
 
 from Bio import Seq, pairwise2
 
 from distance import *
 from distance.norm_char_lev_dis import *
+from distance.character_map import missing_chars
 from main.runner import *
 from Bio.FSSP.fssp_rec import align
+from _sqlite3 import Row
 
 
 if __name__ == "__main__":
@@ -61,16 +64,18 @@ def lang_compare():
         
         if user_in > 0 and user_in < 4:
             #import files
-            word_sets = __read_files__()
+            word_sets = __read_files()
             dist_matrix = [[0 for y in range(len(word_sets))] for x in range(len(word_sets))]
             
             #list of languages in order they will be processed - python items() correspond
             languages = word_sets.keys()
             
+            #process each pair of languages
             for i in range(len(word_sets)):
+                #process all languages after i (no repeat pairs)
                 for j in range(len(word_sets) - i):
                     j += i
-                    lang_total = __compare_word_lists__(languages[i] + "_" + languages[j], word_sets[languages[i]], word_sets[languages[j]])
+                    lang_total = __compare_word_lists(user_in, languages[i] + "_" + languages[j], word_sets[languages[i]], word_sets[languages[j]])
                     #fill in both halves of matrix
                     dist_matrix[i][j] = lang_total
                     dist_matrix[j][i] = lang_total
@@ -78,7 +83,12 @@ def lang_compare():
             #write the distance matrix to a file
             with open(r"reports/language_distances/dist_matrix.txt", 'w') as f:
                 for row in dist_matrix:
-                    f.write("[" + ', '.join(str(i) for i in row) + "]\n")
+                    f.write("[" + ", ".join(str(i) for i in row) + "]\n")
+                    
+            #write missing_chars to its file
+            with codecs.open("reports/missing_chars.txt", 'a', encoding = "utf-8") as missing_file:
+                for thing in missing_chars:
+                    missing_file.write(thing + "\n")
             return
         else: 
             print "That is not a valid option. Please choose a valid option\n"
@@ -98,7 +108,7 @@ def build_tree():
     user_in = raw_input()
     #Build and print the tree
     
-def __read_files__():
+def __read_files():
     '''
     Finds and reads all files in {project-dir}/resources/csv_files and returns a List of all
     sets of words. Assumes that the word list is sorted by language and then word.
@@ -117,13 +127,18 @@ def __read_files__():
     files = glob.glob("resources/csv_files/*.csv")
     for curr_file in files:
         
-        with open(curr_file) as csvFile:
+        with codecs.open(curr_file) as csvFile:
             reader = csv.reader(csvFile, delimiter = ',')
             get_header = True
             curr_lang = ""
             curr_words = {}
             
+            #process each row of the csv file. Header defines content
             for row in reader:
+                
+                #decode into unicode
+                for i in range(len(row)):
+                    row[i] = codecs.decode(row[i], "utf-8")
                 
                 #first row of the file defines locations of data
                 if get_header:
@@ -140,6 +155,8 @@ def __read_files__():
                         if len(curr_words) > 0:
                             #map dictionary of IPA words to the language
                             word_sets[curr_lang] = curr_words
+                            #reset curr_words
+                            curr_words = {}
                         
                         #start recording for next language
                         curr_lang = row[index_of_lang]
@@ -150,7 +167,7 @@ def __read_files__():
     return word_sets
 
 #TODO make this general, is very breakable right now
-def __compare_word_lists__(pair, dict_one, dict_two):
+def __compare_word_lists(user_in, pair, dict_one, dict_two):
     '''
     Assumes both dictionaries are the same length. Calculates the total distance between the two
     lists and prints the individual word distances to a file in 
@@ -159,24 +176,30 @@ def __compare_word_lists__(pair, dict_one, dict_two):
     @return the total distance between the languages
     '''
     total = 0
+    normalize_by = 1
     words = dict_one.keys()
     #file for writing results
     print pair
-    with open(r"reports/word_comparisons/" + pair + ".txt", 'w') as f:
+    with codecs.open(r"reports/word_comparisons/" + pair + ".txt", 'w', encoding='utf-8') as f:
         #get all words in the lists
         for key in words:
             
-            #convert to Sequences for alignment
-#             seq_one = Seq(dict_one[key])
-#             seq_two = Seq(dict_two[key])
-            alignment = pairwise2.align.globalxx(dict_one[key], dict_two[key])
-            print alignment
-            f.write(alignment[0][0] + "\n" + alignment[0][1])
+            if user_in == 2:
+                normalize_by = max(dict_one[key], dict_two[key])
             
+            #get the alignments of the words
+            alignments = pairwise2.align.globalxx(list(dict_one[key]), list(dict_two[key]), gap_char = ['-'])
+            print alignments
+            f.write('\t'.join(alignments[0][0]) + "\n" + '\t'.join(alignments[0][1]) + "\n")
+            
+            #for testing
+            zipped_alignment = zip(list(alignments[0][0]), list(alignments[0][1]))
+            
+            #TODO compare all alignments and use best one for distance
             #compare read in files
-#             dist = norm_char_lev_dis.get_word_distance(alignment, user_in)
-#             f.write("{}: {}").format(key, dist)
-#             total += dist
+            dist = norm_char_lev_dis.get_word_distance(zipped_alignment, normalize_by)
+            f.write("{}: {}".format(key, dist))
+            total += dist
     return total
     
     

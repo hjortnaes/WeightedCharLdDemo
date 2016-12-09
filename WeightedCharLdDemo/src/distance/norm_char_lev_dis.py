@@ -19,21 +19,22 @@ class NormCharLevDis(object):
         Constructor
         '''
         
-def get_word_distance(self, alignment, norm_dist = 1):
+#TODO move this to runner?
+def get_word_distance(alignment, normalize_by = 1):
     '''
     Gets the distance between two aligned strings
     
     @param alignment: A 2D array of aligned Strings
-    @param norm_dist: the distance to normalize the word length by
+    @param normalize_by: the distance to normalize the word length by
     
     @return: The distance between aligned words
     '''
     distance = 0
 
     print alignment
-    for i in alignment.length:
+    for i in alignment:
         distance += search_sub_graph(i[0], i[1])
-    return distance / norm_dist
+    return distance / normalize_by
 
 # def get_ipa_dist(self, a, b):
 #     '''

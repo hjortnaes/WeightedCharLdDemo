@@ -12,6 +12,8 @@ distance between characters.
 
 from Queue import *
 
+missing_chars = []
+
 # map from character to 3D pos (x, y, z)
 char_map = {
     "p": (0, 1, 0),
@@ -52,45 +54,45 @@ char_map = {
 
 # i, y, u, e, ø, o, ʌ, æ, ɑ, ɒ, m, b, p, β, f, v, w, n, d, t, θ, ð, s, z, ʃ, ʒ, l, ɾ, ɹ, ŋ, g, k, x, ɣ, j, ʁ, h, ɦ, ʔ
 __sub_graph__ = {
-    "i":["y", "e", "j"],
-    "y":["i", "u", "ø", ],
-    "u":["y", "o", "ʌ", "w"],
-    "e":["i", "ø", "æ"],
-    "ø":["y", "e", "o"],
-    "o":["u", "ø", "ʌ", "ɒ", "l"],
-    "ʌ":["u", "o", "ɑ", "ɒ", "ɹ", "ʁ"],
-    "æ":["e", "ɑ"],
-    "ɑ":["ʌ", "æ", "ɒ", "ɹ", "ʁ"],
-    "ɒ":["o", "ʌ", "ɑ", "ɹ", "ʁ"],
-    "m":["b", "n", "ŋ"],
-    "b":["m", "p", "β", "v", ],
-    "p":["b", "f", "ʔ"],
-    "β":["b", "w", "ɦ"],
-    "f":["p", "v", "h"],
-    "v":["b", "f", "w", "ɦ"],
-    "w":["u", "β", "v", "j", "ʁ", "ɦ"],
-    "n":["m", "d", "l", "ɾ", "ɹ", "ŋ"],
-    "d":["n", "t", "ð", "z", "ʒ", "l", "ɾ", "ɹ"],
-    "t":["d", "θ", "s", "ʃ", "ʔ"],
-    "θ":["t", "ð", "z", "ʒ", "h"],
-    "ð":["d", "θ", "s", "ʃ", "l", "ɾ", "ɹ", "j", "ʁ", "ɦ"],
-    "s":["t", "ð", "z", "ʒ", "h"],
-    "z":["d", "θ", "s", "ʃ", "l", "ɾ", "ɹ", "j", "ɦ"],
-    "ʃ":["t", "ð", "z", "ʒ", "h"],
-    "ʒ":["d", "θ", "s", "ʃ", "l", "ɾ", "ɹ", "j", "ɦ"],
-    "l":["o", "n", "d", "ð", "z", "ʒ", "j", "ʁ"],
-    "ɾ":["n", "d", "ð", "z", "ʒ", "j", "ʁ"],
-    "ɹ":["ʌ", "ɑ", "ɒ", "n", "d", "ð", "z", "ʒ", "j", "ʁ"],
-    "ŋ":["m", "n", "g", "ʔ"],
-    "g":["ŋ", "k", "ɣ"],
-    "k":["g", "x", "ʔ"],
-    "x":["k", "ɣ", "h"],
-    "ɣ":["g", "x", "ʁ", "ɦ"],
-    "j":["i", "w", "ð", "z", "ʒ", "l", "ɾ", "ɹ", "ʁ", "ɦ"],
-    "ʁ":["ʌ", "ɑ", "ɒ", "w", "ð", "l", "ɾ", "ɹ", "ɣ", "j", "ɦ"],
-    "h":["f", "θ", "s", "ʃ", "x", "ɦ", "ʔ"],
-    "ɦ":["β", "v", "w", "ð", "z", "ʒ", "ɣ", "j", "ʁ", "h"],
-    "ʔ":["p", "t", "ŋ", "k", "h"]
+    u"i":[u"y", u"e", u"j"],
+    u"y":[u"i", u"u", u"ø", ],
+    u"u":[u"y", u"o", u"ʌ", u"w"],
+    u"e":[u"i", u"ø", u"æ"],
+    u"ø":[u"y", u"e", u"o"],
+    u"o":[u"u", u"ø", u"ʌ", u"ɒ", u"l"],
+    u"ʌ":[u"u", u"o", u"ɑ", u"ɒ", u"ɹ", u"ʁ"],
+    u"æ":[u"e", u"ɑ"],
+    u"ɑ":[u"ʌ", u"æ", u"ɒ", u"ɹ", u"ʁ"],
+    u"ɒ":[u"o", u"ʌ", u"ɑ", u"ɹ", u"ʁ"],
+    u"m":[u"b", u"n", u"ŋ"],
+    u"b":[u"m", u"p", u"β", u"v", ],
+    u"p":[u"b", u"f", u"ʔ"],
+    u"β":[u"b", u"w", u"ɦ"],
+    u"f":[u"p", u"v", u"h"],
+    u"v":[u"b", u"f", u"w", u"ɦ"],
+    u"w":[u"u", u"β", u"v", u"j", u"ʁ", u"ɦ"],
+    u"n":[u"m", u"d", u"l", u"ɾ", u"ɹ", u"ŋ"],
+    u"d":[u"n", u"t", u"ð", u"z", u"ʒ", u"l", u"ɾ", u"ɹ"],
+    u"t":[u"d", u"θ", u"s", u"ʃ", u"ʔ"],
+    u"θ":[u"t", u"ð", u"z", u"ʒ", u"h"],
+    u"ð":[u"d", u"θ", u"s", u"ʃ", u"l", u"ɾ", u"ɹ", u"j", u"ʁ", u"ɦ"],
+    u"s":[u"t", u"ð", u"z", u"ʒ", u"h"],
+    u"z":[u"d", u"θ", u"s", u"ʃ", u"l", u"ɾ", u"ɹ", u"j", u"ɦ"],
+    u"ʃ":[u"t", u"ð", u"z", u"ʒ", u"h"],
+    u"ʒ":[u"d", u"θ", u"s", u"ʃ", u"l", u"ɾ", u"ɹ", u"j", u"ɦ"],
+    u"l":[u"o", u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
+    u"ɾ":[u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
+    u"ɹ":[u"ʌ", u"ɑ", u"ɒ", u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
+    u"ŋ":[u"m", u"n", u"g", u"ʔ"],
+    u"g":[u"ŋ", u"k", u"ɣ"],
+    u"k":[u"g", u"x", u"ʔ"],
+    u"x":[u"k", u"ɣ", u"h"],
+    u"ɣ":[u"g", u"x", u"ʁ", u"ɦ"],
+    u"j":[u"i", u"w", u"ð", u"z", u"ʒ", u"l", u"ɾ", u"ɹ", u"ʁ", u"ɦ"],
+    u"ʁ":[u"ʌ", u"ɑ", u"ɒ", u"w", u"ð", u"l", u"ɾ", u"ɹ", u"ɣ", u"j", u"ɦ"],
+    u"h":[u"f", u"θ", u"s", u"ʃ", u"x", u"ɦ", u"ʔ"],
+    u"ɦ":[u"β", u"v", u"w", u"ð", u"z", u"ʒ", u"ɣ", u"j", u"ʁ", u"h"],
+    u"ʔ":[u"p", u"t", u"ŋ", u"k", u"h"]
     }
 
 def search_sub_graph(a, b):
@@ -104,40 +106,46 @@ def search_sub_graph(a, b):
     if a == b:
         return 0
     
-    queue = Queue.Queue()
+    queue = Queue()
     searched = {a:0}
     curr_char = a
     curr_tuple = (a, 0)
     
-    with open("reports/missing_chars.txt", 'a') as missing_file:
+    #check whether a or b is missing
+#     with open("reports/missing_chars.txt", 'a') as missing_file:
+    #Check if the character is not in the graph
+    if not __sub_graph__.has_key(a):
+        if not a in missing_chars:
+            missing_chars.append(a)
+            print "Character " + a + " not found in graph"
+        return -1
+    if not __sub_graph__.has_key(b): 
+        if not b in missing_chars:
+            missing_chars.append(b)
+            print "Character " + b + " not found in graph"
+        return -1
+    
+    #breadth first search
+    while True:
+        #Check the first characters and add them to the queue
+        for char in __sub_graph__[curr_char]:
+            #only add unsearched characters to prevent cycles
+            if not searched.has_key(char):
+                if char == b:
+                    return curr_tuple[1] + 1
+                searched[char] = curr_tuple[1] + 1
+                queue.put((char, curr_tuple[1] + 1))
         
-        while True:
-            #Check if the character is not in the graph
-            if not __sub_graph__.has_key(curr_char):
-                missing_file.write(curr_char + "\n")
-                print "Character " + curr_char + " not found in graph"
-                return -1
+        if queue.empty():
+            #This should never happen
+            print "No path found: Check graph for completeness"
+            return -1
+        
+        #get the next character tuple
+        curr_tuple = queue.get()
+        curr_char = curr_tuple[0]
             
-            #Check the first characters and add them to the queue
-            for char in __sub_graph__[curr_char]:
-                #only add unsearched characters to prevent cycles
-                if not searched.has_key(char):
-                    if char == b:
-                        return curr_tuple[1] + 1
-                    searched[char] = curr_tuple[1] + 1
-                    queue.put((char, curr_tuple[1] + 1))
-            
-            if queue.empty():
-                #This should never happen
-                print "No path found: Check graph for completeness"
-                break
-            
-            #get the next character tuple
-            curr_tuple = queue.get()
-            curr_char = curr_tuple[0]
-            
-            
-        return searched[b]
+    return searched[b]
 
 
 
