@@ -22,6 +22,7 @@ from distance.character_map import missing_chars
 from main.runner import *
 from Bio.FSSP.fssp_rec import align
 from _sqlite3 import Row
+from numpy.random.mtrand import normal
 
 
 if __name__ == "__main__":
@@ -82,6 +83,7 @@ def lang_compare():
                     
             #write the distance matrix to a file
             with open(r"reports/language_distances/dist_matrix.txt", 'w') as f:
+                f.write(str(languages) + "\n")
                 for row in dist_matrix:
                     f.write("[" + ", ".join(str(i) for i in row) + "]\n")
                     
@@ -164,6 +166,10 @@ def __read_files():
                     #map IPA to plain text word
                     curr_words[row[index_of_word]] = row[index_of_ipa]
                     
+            #map last dictionary in file of IPA words to the language
+            word_sets[curr_lang] = curr_words
+            #reset curr_words
+            curr_words = {}
     return word_sets
 
 #TODO make this general, is very breakable right now
@@ -184,22 +190,30 @@ def __compare_word_lists(user_in, pair, dict_one, dict_two):
         #get all words in the lists
         for key in words:
             
+            print key
+            
+            dist = []
+            
             if user_in == 2:
                 normalize_by = max(dict_one[key], dict_two[key])
+            elif user_in == 3:
+                normalize_by = min(dict_one[key], dict_two[key])
             
             #get the alignments of the words
             alignments = pairwise2.align.globalxx(list(dict_one[key]), list(dict_two[key]), gap_char = ['-'])
-            print alignments
-            f.write('\t'.join(alignments[0][0]) + "\n" + '\t'.join(alignments[0][1]) + "\n")
+#             print alignments
             
-            #for testing
-            zipped_alignment = zip(list(alignments[0][0]), list(alignments[0][1]))
+            for align in alignments:
+                f.write('\t'.join(align[0]) + "\n" + '\t'.join(align[1]) + "\n")
             
-            #TODO compare all alignments and use best one for distance
-            #compare read in files
-            dist = norm_char_lev_dis.get_word_distance(zipped_alignment, normalize_by)
-            f.write("{}: {}".format(key, dist))
-            total += dist
+                #for testing
+                zipped_alignment = zip(list(align[0]), list(align[1]))
+                
+                #compare read in files
+                dist.append(norm_char_lev_dis.get_word_distance(zipped_alignment, normalize_by))
+                
+            f.write("{}: {}\n\n".format(key, dist))
+            total += min(dist)
     return total
     
     

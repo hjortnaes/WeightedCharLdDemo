@@ -52,17 +52,27 @@ char_map = {
     "a": (6, 6, 2)
     }
 
-# i, y, u, e, ø, o, ʌ, æ, ɑ, ɒ, m, b, p, β, f, v, w, n, d, t, θ, ð, s, z, ʃ, ʒ, l, ɾ, ɹ, ŋ, g, k, x, ɣ, j, ʁ, h, ɦ, ʔ
+# i, ɪ, y, ʏ, u, e, ø, o, ʌ, æ, ɑ, ɒ, m, b, p, β, f, v, w, n, d, t, θ, ð, s, z, ʃ, ʒ, l, ɾ, ɹ, ŋ, g, k, x, ɣ, j, ʁ, h, ɦ, ʔ
 __sub_graph__ = {
     u"i":[u"y", u"e", u"j"],
-    u"y":[u"i", u"u", u"ø", ],
-    u"u":[u"y", u"o", u"ʌ", u"w"],
-    u"e":[u"i", u"ø", u"æ"],
+    u"ɪ":[u"ʏ", u"ɛ", u"j"],
+    u"y":[u"i", u"u", u"ʊ", u"ø"],
+    u"ʏ":[u"ɪ", u"ʊ", u"œ"],
+    u"u":[u"y", u"o", u"w"],
+    u"ʊ":[u"y", u"ɔ", u"w"],
+    u"e":[u"i", u"ø", u"ɤ", u"a", u"æ"],
+    u"ɛ":[u"ɪ", u"œ", u"ʌ", u"ə"],
     u"ø":[u"y", u"e", u"o"],
-    u"o":[u"u", u"ø", u"ʌ", u"ɒ", u"l"],
-    u"ʌ":[u"u", u"o", u"ɑ", u"ɒ", u"ɹ", u"ʁ"],
+    u"œ":[u"ʏ", u"ɛ", u"ɔ"],
+    u"o":[u"u", u"ø", u"ɤ", u"ʌ", u"ɒ", u"l"],
+    u"ɔ":[u"ʊ", u"œ", u"ʌ"],
+    u"ɤ":[u"e", u"o", u"ɑ"],
+    u"ʌ":[u"ɛ", u"o", u"ɔ", u"ə", u"ɑ", u"ɒ", u"ɹ", u"ʁ"],
+    u"ə":[u"ɛ", u"ʌ", u"ɹ", u"ʁ"],
+    #this looks the same as the later a in this font. It is not
+    u"a":[u"e", u"ɑ"],
     u"æ":[u"e", u"ɑ"],
-    u"ɑ":[u"ʌ", u"æ", u"ɒ", u"ɹ", u"ʁ"],
+    u"ɑ":[u"ɤ", u"ʌ", u"a", u"æ", u"ɒ", u"ɹ", u"ʁ"],
     u"ɒ":[u"o", u"ʌ", u"ɑ", u"ɹ", u"ʁ"],
     u"m":[u"b", u"n", u"ŋ"],
     u"b":[u"m", u"p", u"β", u"v", ],
@@ -70,7 +80,7 @@ __sub_graph__ = {
     u"β":[u"b", u"w", u"ɦ"],
     u"f":[u"p", u"v", u"h"],
     u"v":[u"b", u"f", u"w", u"ɦ"],
-    u"w":[u"u", u"β", u"v", u"j", u"ʁ", u"ɦ"],
+    u"w":[u"u", u"ʊ", u"β", u"v", u"j", u"ʁ", u"ɦ"],
     u"n":[u"m", u"d", u"l", u"ɾ", u"ɹ", u"ŋ"],
     u"d":[u"n", u"t", u"ð", u"z", u"ʒ", u"l", u"ɾ", u"ɹ"],
     u"t":[u"d", u"θ", u"s", u"ʃ", u"ʔ"],
@@ -82,17 +92,22 @@ __sub_graph__ = {
     u"ʒ":[u"d", u"θ", u"s", u"ʃ", u"l", u"ɾ", u"ɹ", u"j", u"ɦ"],
     u"l":[u"o", u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
     u"ɾ":[u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
-    u"ɹ":[u"ʌ", u"ɑ", u"ɒ", u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
-    u"ŋ":[u"m", u"n", u"g", u"ʔ"],
-    u"g":[u"ŋ", u"k", u"ɣ"],
-    u"k":[u"g", u"x", u"ʔ"],
-    u"x":[u"k", u"ɣ", u"h"],
-    u"ɣ":[u"g", u"x", u"ʁ", u"ɦ"],
-    u"j":[u"i", u"w", u"ð", u"z", u"ʒ", u"l", u"ɾ", u"ɹ", u"ʁ", u"ɦ"],
-    u"ʁ":[u"ʌ", u"ɑ", u"ɒ", u"w", u"ð", u"l", u"ɾ", u"ɹ", u"ɣ", u"j", u"ɦ"],
-    u"h":[u"f", u"θ", u"s", u"ʃ", u"x", u"ɦ", u"ʔ"],
-    u"ɦ":[u"β", u"v", u"w", u"ð", u"z", u"ʒ", u"ɣ", u"j", u"ʁ", u"h"],
-    u"ʔ":[u"p", u"t", u"ŋ", u"k", u"h"]
+    u"ɹ":[u"ʌ", u"ə", u"ɑ", u"ɒ", u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
+    u"ŋ":[u"m", u"n", u"ɟ", u"g", u"ʔ"],
+    u"ɟ":[u"ŋ", u"q", u"c", u"k", u"ʝ", u"ɣ"],
+    u"g":[u"ŋ", u"q", u"c", u"k", u"ʝ", u"ɣ"],
+    u"q":[u"ɟ", u"g", u"χ", u"x", u"ʔ"],
+    u"c":[u"ɟ", u"g", u"χ", u"x", u"ʔ"],
+    u"k":[u"ɟ", u"g", u"χ", u"x", u"ʔ"],
+    u"χ":[u"q", u"c", u"k", u"ʝ", u"ɣ", u"h"],
+    u"x":[u"q", u"c", u"k", u"ʝ", u"ɣ", u"h"],
+    u"ʝ":[u"ɟ", u"g", u"χ", u"x", u"ʁ", u"ɦ"],
+    u"ɣ":[u"ɟ", u"g", u"χ", u"x", u"ʁ", u"ɦ"],
+    u"j":[u"i", u"ɪ", u"w", u"ð", u"z", u"ʒ", u"l", u"ɾ", u"ɹ", u"ʁ", u"ɦ"],
+    u"ʁ":[u"ʌ", u"ə", u"ɑ", u"ɒ", u"w", u"ð", u"l", u"ɾ", u"ɹ", u"ʝ", u"ɣ", u"j", u"ɦ"],
+    u"h":[u"f", u"θ", u"s", u"ʃ", u"χ", u"x", u"ɦ", u"ʔ"],
+    u"ɦ":[u"β", u"v", u"w", u"ð", u"z", u"ʒ", u"ʝ", u"ɣ", u"j", u"ʁ", u"h"],
+    u"ʔ":[u"p", u"t", u"ŋ", u"q", u"c", u"k", u"h"]
     }
 
 def search_sub_graph(a, b):
@@ -106,6 +121,10 @@ def search_sub_graph(a, b):
     if a == b:
         return 0
     
+    #deletion
+    if a == '-' or b == '-':
+        return 1
+    
     queue = Queue()
     searched = {a:0}
     curr_char = a
@@ -118,12 +137,14 @@ def search_sub_graph(a, b):
         if not a in missing_chars:
             missing_chars.append(a)
             print "Character " + a + " not found in graph"
-        return -1
+#         raise ValueError("Character " + a + " not found in graph")
+        return 0
     if not __sub_graph__.has_key(b): 
         if not b in missing_chars:
             missing_chars.append(b)
             print "Character " + b + " not found in graph"
-        return -1
+#         raise ValueError("Character " + a + " not found in graph")
+        return 0
     
     #breadth first search
     while True:
