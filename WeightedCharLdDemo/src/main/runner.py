@@ -191,29 +191,39 @@ def __compare_word_lists(user_in, pair, dict_one, dict_two):
         for key in words:
             
             print key
+            f.write(str(key) + "\n")
             
-            dist = []
+            distances = []
+            shortest = sys.maxint
             
             if user_in == 2:
-                normalize_by = max(dict_one[key], dict_two[key])
+                normalize_by = max(len(dict_one[key]), len(dict_two[key]))
             elif user_in == 3:
-                normalize_by = min(dict_one[key], dict_two[key])
+                normalize_by = min(len(dict_one[key]), len(dict_two[key]))
             
             #get the alignments of the words
             alignments = pairwise2.align.globalxx(list(dict_one[key]), list(dict_two[key]), gap_char = ['-'])
 #             print alignments
             
             for align in alignments:
-                f.write('\t'.join(align[0]) + "\n" + '\t'.join(align[1]) + "\n")
+                #only take the shortest alignments
+                if len(align[0]) < shortest:
+                    distances = []
+                    shortest = len(align[0])
+                elif len(align[0]) > shortest:
+                    continue
+                    
+#                 f.write('\t'.join(align[0]) + "\n" + '\t'.join(align[1]) + "\n")
             
                 #for testing
                 zipped_alignment = zip(list(align[0]), list(align[1]))
                 
                 #compare read in files
-                dist.append(norm_char_lev_dis.get_word_distance(zipped_alignment, normalize_by))
+                dist = norm_char_lev_dis.get_word_distance(zipped_alignment, normalize_by)
+                distances.append(dist)
                 
-            f.write("{}: {}\n\n".format(key, dist))
-            total += min(dist)
+                f.write("alignment:\n{}\n{} distance:{}\n\n".format('\t'.join(align[0]), '\t'.join(align[1]), dist))
+            total += min(distances)
     return total
     
     

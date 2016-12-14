@@ -122,18 +122,19 @@ def search_sub_graph(a, b):
     if a == b:
         return 0
     
-    #deletion
+    #check for diacritic matched with another diacritic or a gap char
+    if (not __sub_graph__.has_key(a) or a == '-') and (not __sub_graph__.has_key(b) or b == '-'):
+        return 0
+    
+    #deletion/insertion
     if a == '-' or b == '-':
-        return 4
+        return 1
     
     queue = Queue()
     searched = {a:0}
     curr_char = a
     curr_tuple = (a, 0)
     
-    #check for diacritic matched with another diacritic or a gap char
-    if (not __sub_graph__.has_key(a) or a == '-') and (not __sub_graph__.has_key(b) or b == '-'):
-        return 0
     #Check if the character is not in the graph
     if not __sub_graph__.has_key(a):
         if not a in missing_chars:
