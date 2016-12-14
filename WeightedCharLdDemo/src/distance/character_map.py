@@ -52,7 +52,7 @@ char_map = {
     "a": (6, 6, 2)
     }
 
-# i, ɪ, y, ʏ, u, e, ø, o, ʌ, æ, ɑ, ɒ, m, b, p, β, f, v, w, n, d, t, θ, ð, s, z, ʃ, ʒ, l, ɾ, ɹ, ŋ, g, k, x, ɣ, j, ʁ, h, ɦ, ʔ
+#i, ɪ, y, ʏ, u, ʊ, e, ɛ, ø, œ, o, ɔ, ɤ, ʌ, ɚ, a, æ, ɐ, ɑ, ɒ, m, b, p, β, f, v, w, n, d, t, θ, ð, s, z, ʃ, ʒ, l, ɾ, ɹ, ŋ, g, k, x, ɣ, j, ʁ, h, ɦ, ʔ
 __sub_graph__ = {
     u"i":[u"y", u"e", u"j"],
     u"ɪ":[u"ʏ", u"ɛ", u"j"],
@@ -67,13 +67,14 @@ __sub_graph__ = {
     u"o":[u"u", u"ø", u"ɤ", u"ʌ", u"ɒ", u"l"],
     u"ɔ":[u"ʊ", u"œ", u"ʌ"],
     u"ɤ":[u"e", u"o", u"ɑ"],
-    u"ʌ":[u"ɛ", u"o", u"ɔ", u"ə", u"ɑ", u"ɒ", u"ɹ", u"ʁ"],
+    u"ʌ":[u"ɛ", u"o", u"ɔ", u"ə", u"ɐ", u"ɑ", u"ɒ", u"ɹ", u"ʁ"],
     u"ə":[u"ɛ", u"ʌ", u"ɹ", u"ʁ"],
     #this looks the same as the later a in this font. It is not
-    u"a":[u"e", u"ɑ"],
-    u"æ":[u"e", u"ɑ"],
-    u"ɑ":[u"ɤ", u"ʌ", u"a", u"æ", u"ɒ", u"ɹ", u"ʁ"],
-    u"ɒ":[u"o", u"ʌ", u"ɑ", u"ɹ", u"ʁ"],
+    u"a":[u"e", u"ɐ", u"ɑ"],
+    u"æ":[u"e", u"ɐ", u"ɑ"],
+    u"ɐ":[u"ʌ", u"a", u"æ", u"ɑ", u"ɒ"],
+    u"ɑ":[u"ɤ", u"ʌ", u"a", u"æ", u"ɐ", u"ɒ", u"ɹ", u"ʁ"],
+    u"ɒ":[u"o", u"ʌ", u"ɑ", u"ɐ", u"ɹ", u"ʁ"],
     u"m":[u"b", u"n", u"ŋ"],
     u"b":[u"m", u"p", u"β", u"v", ],
     u"p":[u"b", u"f", u"ʔ"],
@@ -81,17 +82,17 @@ __sub_graph__ = {
     u"f":[u"p", u"v", u"h"],
     u"v":[u"b", u"f", u"w", u"ɦ"],
     u"w":[u"u", u"ʊ", u"β", u"v", u"j", u"ʁ", u"ɦ"],
-    u"n":[u"m", u"d", u"l", u"ɾ", u"ɹ", u"ŋ"],
-    u"d":[u"n", u"t", u"ð", u"z", u"ʒ", u"l", u"ɾ", u"ɹ"],
+    u"n":[u"m", u"d", u"l", u"r", u"ɹ", u"ŋ"],
+    u"d":[u"n", u"t", u"ð", u"z", u"ʒ", u"l", u"r", u"ɹ"],
     u"t":[u"d", u"θ", u"s", u"ʃ", u"ʔ"],
     u"θ":[u"t", u"ð", u"z", u"ʒ", u"h"],
-    u"ð":[u"d", u"θ", u"s", u"ʃ", u"l", u"ɾ", u"ɹ", u"j", u"ʁ", u"ɦ"],
+    u"ð":[u"d", u"θ", u"s", u"ʃ", u"l", u"r", u"ɹ", u"j", u"ʁ", u"ɦ"],
     u"s":[u"t", u"ð", u"z", u"ʒ", u"h"],
-    u"z":[u"d", u"θ", u"s", u"ʃ", u"l", u"ɾ", u"ɹ", u"j", u"ɦ"],
+    u"z":[u"d", u"θ", u"s", u"ʃ", u"l", u"r", u"ɹ", u"j", u"ɦ"],
     u"ʃ":[u"t", u"ð", u"z", u"ʒ", u"h"],
-    u"ʒ":[u"d", u"θ", u"s", u"ʃ", u"l", u"ɾ", u"ɹ", u"j", u"ɦ"],
+    u"ʒ":[u"d", u"θ", u"s", u"ʃ", u"l", u"r", u"ɹ", u"j", u"ɦ"],
     u"l":[u"o", u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
-    u"ɾ":[u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
+    u"r":[u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
     u"ɹ":[u"ʌ", u"ə", u"ɑ", u"ɒ", u"n", u"d", u"ð", u"z", u"ʒ", u"j", u"ʁ"],
     u"ŋ":[u"m", u"n", u"ɟ", u"g", u"ʔ"],
     u"ɟ":[u"ŋ", u"q", u"c", u"k", u"ʝ", u"ɣ"],
@@ -103,8 +104,8 @@ __sub_graph__ = {
     u"x":[u"q", u"c", u"k", u"ʝ", u"ɣ", u"h"],
     u"ʝ":[u"ɟ", u"g", u"χ", u"x", u"ʁ", u"ɦ"],
     u"ɣ":[u"ɟ", u"g", u"χ", u"x", u"ʁ", u"ɦ"],
-    u"j":[u"i", u"ɪ", u"w", u"ð", u"z", u"ʒ", u"l", u"ɾ", u"ɹ", u"ʁ", u"ɦ"],
-    u"ʁ":[u"ʌ", u"ə", u"ɑ", u"ɒ", u"w", u"ð", u"l", u"ɾ", u"ɹ", u"ʝ", u"ɣ", u"j", u"ɦ"],
+    u"j":[u"i", u"ɪ", u"w", u"ð", u"z", u"ʒ", u"l", u"r", u"ɹ", u"ʁ", u"ɦ"],
+    u"ʁ":[u"ʌ", u"ə", u"ɑ", u"ɒ", u"w", u"ð", u"l", u"r", u"ɹ", u"ʝ", u"ɣ", u"j", u"ɦ"],
     u"h":[u"f", u"θ", u"s", u"ʃ", u"χ", u"x", u"ɦ", u"ʔ"],
     u"ɦ":[u"β", u"v", u"w", u"ð", u"z", u"ʒ", u"ʝ", u"ɣ", u"j", u"ʁ", u"h"],
     u"ʔ":[u"p", u"t", u"ŋ", u"q", u"c", u"k", u"h"]
@@ -123,28 +124,29 @@ def search_sub_graph(a, b):
     
     #deletion
     if a == '-' or b == '-':
-        return 1
+        return 4
     
     queue = Queue()
     searched = {a:0}
     curr_char = a
     curr_tuple = (a, 0)
     
-    #check whether a or b is missing
-#     with open("reports/missing_chars.txt", 'a') as missing_file:
+    #check for diacritic matched with another diacritic or a gap char
+    if (not __sub_graph__.has_key(a) or a == '-') and (not __sub_graph__.has_key(b) or b == '-'):
+        return 0
     #Check if the character is not in the graph
     if not __sub_graph__.has_key(a):
         if not a in missing_chars:
             missing_chars.append(a)
             print "Character " + a + " not found in graph"
 #         raise ValueError("Character " + a + " not found in graph")
-        return 0
+        return 50
     if not __sub_graph__.has_key(b): 
         if not b in missing_chars:
             missing_chars.append(b)
             print "Character " + b + " not found in graph"
 #         raise ValueError("Character " + a + " not found in graph")
-        return 0
+        return 50
     
     #breadth first search
     while True:
