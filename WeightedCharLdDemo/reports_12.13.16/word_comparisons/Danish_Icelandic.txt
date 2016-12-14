@@ -1,0 +1,2750 @@
+ʔ	ɛ	-	-	l	ʔ
+-	-	a	t	l	-
+ʔ	ɛ	-	l	ʔ
+-	a	t	l	-
+ʔ	ɛ	-	l	ʔ
+a	-	t	l	-
+ʔ	-	ɛ	l	ʔ
+-	a	t	l	-
+ʔ	ɛ	l	ʔ
+a	t	l	-
+-	ʔ	ɛ	l	ʔ
+a	t	-	l	-
+all: [20, 15, 17, 16, 13, 13]
+
+h	ʊ	ŋ	ʔ	ɔ	-
+h	ʊ	ŋ	-	-	k
+h	ʊ	ŋ	ʔ	ɔ
+h	ʊ	ŋ	-	k
+h	ʊ	ŋ	ʔ	ɔ
+h	ʊ	ŋ	k	-
+hunger: [12, 9, 5]
+
+ʔ	ɔ	w	ɔ	-	-	-	-
+-	-	-	-	e	v	ɪ	s
+ʔ	ɔ	w	ɔ	-	-	-
+-	-	-	e	v	ɪ	s
+ʔ	ɔ	w	ɔ	-	-	-
+-	-	e	-	v	ɪ	s
+ʔ	ɔ	w	ɔ	-	-	-
+-	e	-	-	v	ɪ	s
+ʔ	ɔ	w	ɔ	-	-	-
+e	-	-	-	v	ɪ	s
+ʔ	ɔ	w	-	ɔ	-	-
+-	-	-	e	v	ɪ	s
+ʔ	ɔ	w	ɔ	-	-
+-	-	e	v	ɪ	s
+ʔ	ɔ	w	ɔ	-	-
+-	e	-	v	ɪ	s
+ʔ	ɔ	w	ɔ	-	-
+e	-	-	v	ɪ	s
+ʔ	ɔ	-	w	ɔ	-	-
+-	-	e	v	-	ɪ	s
+ʔ	ɔ	w	ɔ	-	-
+-	e	v	-	ɪ	s
+ʔ	ɔ	w	ɔ	-	-
+e	-	v	-	ɪ	s
+ʔ	-	ɔ	w	ɔ	-	-
+-	e	v	-	-	ɪ	s
+ʔ	ɔ	w	ɔ	-	-
+e	v	-	-	ɪ	s
+-	ʔ	ɔ	w	ɔ	-	-
+e	v	-	-	-	ɪ	s
+ʔ	ɔ	w	-	-	ɔ	-
+-	-	-	e	v	ɪ	s
+ʔ	ɔ	w	-	ɔ	-
+-	-	e	v	ɪ	s
+ʔ	ɔ	w	-	ɔ	-
+-	e	-	v	ɪ	s
+ʔ	ɔ	w	-	ɔ	-
+e	-	-	v	ɪ	s
+ʔ	ɔ	-	w	ɔ	-
+-	-	e	v	ɪ	s
+ʔ	ɔ	w	ɔ	-
+-	e	v	ɪ	s
+ʔ	ɔ	w	ɔ	-
+e	-	v	ɪ	s
+ʔ	-	ɔ	w	ɔ	-
+-	e	v	-	ɪ	s
+ʔ	ɔ	w	ɔ	-
+e	v	-	ɪ	s
+-	ʔ	ɔ	w	ɔ	-
+e	v	-	-	ɪ	s
+ʔ	ɔ	-	-	w	ɔ	-
+-	-	e	v	ɪ	-	s
+ʔ	ɔ	-	w	ɔ	-
+-	e	v	ɪ	-	s
+ʔ	ɔ	-	w	ɔ	-
+e	-	v	ɪ	-	s
+ʔ	-	ɔ	w	ɔ	-
+-	e	v	ɪ	-	s
+ʔ	ɔ	w	ɔ	-
+e	v	ɪ	-	s
+-	ʔ	ɔ	w	ɔ	-
+e	v	-	ɪ	-	s
+ʔ	-	-	ɔ	w	ɔ	-
+-	e	v	ɪ	-	-	s
+ʔ	-	ɔ	w	ɔ	-
+e	v	ɪ	-	-	s
+-	ʔ	ɔ	w	ɔ	-
+e	v	ɪ	-	-	s
+-	-	ʔ	ɔ	w	ɔ	-
+e	v	ɪ	-	-	-	s
+ʔ	ɔ	w	-	-	-	ɔ
+-	-	-	e	v	ɪ	s
+ʔ	ɔ	w	-	-	ɔ
+-	-	e	v	ɪ	s
+ʔ	ɔ	w	-	-	ɔ
+-	e	-	v	ɪ	s
+ʔ	ɔ	w	-	-	ɔ
+e	-	-	v	ɪ	s
+ʔ	ɔ	-	w	-	ɔ
+-	-	e	v	ɪ	s
+ʔ	ɔ	w	-	ɔ
+-	e	v	ɪ	s
+ʔ	ɔ	w	-	ɔ
+e	-	v	ɪ	s
+ʔ	-	ɔ	w	-	ɔ
+-	e	v	-	ɪ	s
+ʔ	ɔ	w	-	ɔ
+e	v	-	ɪ	s
+-	ʔ	ɔ	w	-	ɔ
+e	v	-	-	ɪ	s
+ʔ	ɔ	-	-	w	ɔ
+-	-	e	v	ɪ	s
+ʔ	ɔ	-	w	ɔ
+-	e	v	ɪ	s
+ʔ	ɔ	-	w	ɔ
+e	-	v	ɪ	s
+ʔ	-	ɔ	w	ɔ
+-	e	v	ɪ	s
+ʔ	ɔ	w	ɔ
+e	v	ɪ	s
+-	ʔ	ɔ	w	ɔ
+e	v	-	ɪ	s
+ʔ	-	-	ɔ	w	ɔ
+-	e	v	ɪ	-	s
+ʔ	-	ɔ	w	ɔ
+e	v	ɪ	-	s
+-	ʔ	ɔ	w	ɔ
+e	v	ɪ	-	s
+-	-	ʔ	ɔ	w	ɔ
+e	v	ɪ	-	-	s
+ʔ	ɔ	-	-	-	w	ɔ
+-	-	e	v	ɪ	s	-
+ʔ	ɔ	-	-	w	ɔ
+-	e	v	ɪ	s	-
+ʔ	ɔ	-	-	w	ɔ
+e	-	v	ɪ	s	-
+ʔ	-	ɔ	-	w	ɔ
+-	e	v	ɪ	s	-
+ʔ	ɔ	-	w	ɔ
+e	v	ɪ	s	-
+-	ʔ	ɔ	-	w	ɔ
+e	v	-	ɪ	s	-
+ʔ	-	-	ɔ	w	ɔ
+-	e	v	ɪ	s	-
+ʔ	-	ɔ	w	ɔ
+e	v	ɪ	s	-
+-	ʔ	ɔ	w	ɔ
+e	v	ɪ	s	-
+-	-	ʔ	ɔ	w	ɔ
+e	v	ɪ	-	s	-
+ʔ	-	-	-	ɔ	w	ɔ
+-	e	v	ɪ	s	-	-
+ʔ	-	-	ɔ	w	ɔ
+e	v	ɪ	s	-	-
+-	ʔ	-	ɔ	w	ɔ
+e	v	ɪ	s	-	-
+-	-	ʔ	ɔ	w	ɔ
+e	v	ɪ	s	-	-
+-	-	-	ʔ	ɔ	w	ɔ
+e	v	ɪ	s	-	-	-
+over: [32, 28, 27, 28, 29, 27, 22, 23, 24, 25, 21, 22, 27, 24, 27, 27, 22, 23, 24, 20, 16, 17, 22, 19, 22, 26, 22, 23, 21, 18, 21, 27, 24, 22, 28, 28, 23, 24, 25, 21, 17, 18, 23, 20, 23, 22, 18, 19, 17, 14, 17, 23, 20, 18, 24, 27, 23, 24, 22, 19, 22, 22, 19, 17, 23, 28, 25, 23, 24, 26]
+
+m	ɪ	t
+m	ɪ	t
+mid: [0]
+
+f	i	ə	-	-	-
+f	-	-	j	œ	r
+f	i	ə	-	-
+f	-	j	œ	r
+f	i	ə	-	-
+f	j	-	œ	r
+f	i	-	ə	-
+f	-	j	œ	r
+f	i	ə	-
+f	j	œ	r
+f	-	i	ə	-
+f	j	œ	-	r
+f	i	-	-	ə
+f	-	j	œ	r
+f	i	-	ə
+f	j	œ	r
+f	-	i	ə
+f	j	œ	r
+f	-	-	i	ə
+f	j	œ	r	-
+four: [20, 14, 13, 14, 7, 16, 14, 7, 10, 14]
+
+ʔ	ɔ	n	-	-
+-	ɔ	-	p	m
+ʔ	ɔ	n	-
+-	ɔ	p	m
+ʔ	ɔ	-	n
+-	ɔ	p	m
+oven: [16, 11, 9]
+
+j	o	ɔ	-	-	-
+j	-	-	œ	r	θ
+j	o	ɔ	-	-
+j	-	œ	r	θ
+j	o	ɔ	-	-
+j	œ	-	r	θ
+j	o	-	ɔ	-
+j	-	œ	r	θ
+j	o	ɔ	-
+j	œ	r	θ
+j	-	o	ɔ	-
+j	œ	r	-	θ
+j	o	-	-	ɔ
+j	-	œ	r	θ
+j	o	-	ɔ
+j	œ	r	θ
+j	-	o	ɔ
+j	œ	r	θ
+j	-	-	o	ɔ
+j	œ	r	θ	-
+earth: [20, 13, 15, 15, 10, 15, 16, 11, 11, 15]
+
+k	ɔ	ʔ	-	l	-
+k	-	-	a	l	d
+k	ɔ	ʔ	l	-
+k	-	a	l	d
+k	ɔ	ʔ	l	-
+k	a	-	l	d
+cold: [16, 13, 11]
+
+m	ɪ	-	-	l	ʔ	k
+m	-	j	ɔ	l	-	k
+m	ɪ	-	l	ʔ	k
+m	j	ɔ	l	-	k
+m	-	ɪ	l	ʔ	k
+m	j	ɔ	l	-	k
+milk: [16, 9, 11]
+
+f	ɛ	-	ð	ɔ	-	-
+f	-	a	ð	-	ɪ	s
+f	ɛ	ð	ɔ	-	-
+f	a	ð	-	ɪ	s
+f	ɛ	-	ð	ɔ	-
+f	-	a	ð	ɪ	s
+f	ɛ	ð	ɔ	-
+f	a	ð	ɪ	s
+f	ɛ	-	ð	-	ɔ
+f	-	a	ð	ɪ	s
+f	ɛ	ð	-	ɔ
+f	a	ð	ɪ	s
+father: [20, 15, 15, 10, 16, 11]
+
+ʔ	ʊ	ʔ	ŋ	-
+-	ʊ	-	ŋ	k
+young: [12]
+
+b	ɪ	ð	-	ə	ʁ	ʌ	-	-	-
+b	-	-	e	ə	-	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-	-	-
+b	-	e	ə	-	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-	-	-
+b	e	-	ə	-	-	t	r	ɪ
+b	ɪ	ð	-	ə	ʁ	ʌ	-	-
+b	-	-	e	ə	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-	-
+b	-	e	ə	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-	-
+b	e	-	ə	-	t	r	ɪ
+b	ɪ	ð	-	ə	ʁ	ʌ	-	-
+b	-	-	e	ə	t	-	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-	-
+b	-	e	ə	t	-	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-	-
+b	e	-	ə	t	-	r	ɪ
+b	ɪ	ð	-	ə	ʁ	-	ʌ	-
+b	-	-	e	ə	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	-	ʌ	-
+b	-	e	ə	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	-	ʌ	-
+b	e	-	ə	-	t	r	ɪ
+b	ɪ	ð	-	ə	ʁ	ʌ	-
+b	-	-	e	ə	t	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-
+b	-	e	ə	t	r	ɪ
+b	ɪ	ð	ə	ʁ	ʌ	-
+b	e	-	ə	t	r	ɪ
+b	ɪ	ð	-	ə	-	ʁ	ʌ	-
+b	-	-	e	ə	t	r	-	ɪ
+b	ɪ	ð	ə	-	ʁ	ʌ	-
+b	-	e	ə	t	r	-	ɪ
+b	ɪ	ð	ə	-	ʁ	ʌ	-
+b	e	-	ə	t	r	-	ɪ
+b	ɪ	ð	-	ə	ʁ	-	-	ʌ
+b	-	-	e	ə	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	-	-	ʌ
+b	-	e	ə	-	t	r	ɪ
+b	ɪ	ð	ə	ʁ	-	-	ʌ
+b	e	-	ə	-	t	r	ɪ
+b	ɪ	ð	-	ə	ʁ	-	ʌ
+b	-	-	e	ə	t	r	ɪ
+b	ɪ	ð	ə	ʁ	-	ʌ
+b	-	e	ə	t	r	ɪ
+b	ɪ	ð	ə	ʁ	-	ʌ
+b	e	-	ə	t	r	ɪ
+b	ɪ	ð	-	ə	-	ʁ	ʌ
+b	-	-	e	ə	t	r	ɪ
+b	ɪ	ð	ə	-	ʁ	ʌ
+b	-	e	ə	t	r	ɪ
+b	ɪ	ð	ə	-	ʁ	ʌ
+b	e	-	ə	t	r	ɪ
+b	ɪ	ð	-	ə	-	-	ʁ	ʌ
+b	-	-	e	ə	t	r	ɪ	-
+b	ɪ	ð	ə	-	-	ʁ	ʌ
+b	-	e	ə	t	r	ɪ	-
+b	ɪ	ð	ə	-	-	ʁ	ʌ
+b	e	-	ə	t	r	ɪ	-
+b	-	-	-	-	ɪ	ð	ə	ʁ	ʌ
+b	e	ə	t	r	ɪ	-	-	-	-
+better: [32, 27, 27, 27, 22, 22, 27, 22, 22, 26, 21, 21, 21, 16, 16, 25, 20, 20, 26, 21, 21, 21, 16, 16, 19, 14, 14, 26, 21, 21, 32]
+
+ʔ	u	ʔ	-	-	l
+-	-	-	ʏ	t	l
+ʔ	u	ʔ	-	l
+-	-	ʏ	t	l
+ʔ	u	ʔ	-	l
+-	ʏ	-	t	l
+ʔ	u	ʔ	-	l
+ʏ	-	-	t	l
+ʔ	u	-	ʔ	l
+-	-	ʏ	t	l
+ʔ	u	ʔ	l
+-	ʏ	t	l
+ʔ	u	ʔ	l
+ʏ	-	t	l
+ʔ	-	u	ʔ	l
+-	ʏ	t	-	l
+ʔ	u	ʔ	l
+ʏ	t	-	l
+-	ʔ	u	ʔ	l
+ʏ	t	-	-	l
+wool: [20, 17, 16, 17, 13, 9, 10, 16, 13, 13]
+
+g	-	ʊ	ə	l	ʔ	-
+g	ɔ	ʊ	-	-	-	ð
+g	-	ʊ	ə	l	ʔ
+g	ɔ	ʊ	-	-	ð
+g	-	ʊ	ə	l	ʔ
+g	ɔ	ʊ	-	ð	-
+g	-	ʊ	ə	l	ʔ
+g	ɔ	ʊ	ð	-	-
+good: [20, 15, 13, 14]
+
+f	ɪ	m	ʔ
+f	ɪ	m	-
+five: [4]
+
+f	-	ʊ	l	ʔ	-
+f	ɔ	ʊ	-	-	t
+f	-	ʊ	l	ʔ
+f	ɔ	ʊ	-	t
+f	-	ʊ	l	ʔ
+f	ɔ	ʊ	t	-
+foot: [16, 9, 10]
+
+ʔ	i	ʔ	-	-	n
+-	-	-	ɛ	t	n
+ʔ	i	ʔ	-	n
+-	-	ɛ	t	n
+ʔ	i	ʔ	-	n
+-	ɛ	-	t	n
+ʔ	i	ʔ	-	n
+ɛ	-	-	t	n
+ʔ	i	-	ʔ	n
+-	-	ɛ	t	n
+ʔ	i	ʔ	n
+-	ɛ	t	n
+ʔ	i	ʔ	n
+ɛ	-	t	n
+ʔ	-	i	ʔ	n
+-	ɛ	t	-	n
+ʔ	i	ʔ	n
+ɛ	t	-	n
+-	ʔ	i	ʔ	n
+ɛ	t	-	-	n
+one: [20, 17, 15, 17, 13, 8, 10, 16, 13, 13]
+
+d	ɛ	ɪ	ʔ	-	-
+d	-	-	-	a	x
+d	ɛ	ɪ	ʔ	-
+d	-	-	a	x
+d	ɛ	ɪ	ʔ	-
+d	-	a	-	x
+d	ɛ	ɪ	ʔ	-
+d	a	-	-	x
+d	ɛ	ɪ	-	ʔ
+d	-	-	a	x
+d	ɛ	ɪ	ʔ
+d	-	a	x
+d	ɛ	ɪ	ʔ
+d	a	-	x
+d	ɛ	-	ɪ	ʔ
+d	-	a	x	-
+d	ɛ	ɪ	ʔ
+d	a	x	-
+d	-	ɛ	ɪ	ʔ
+d	a	x	-	-
+day: [20, 17, 16, 15, 14, 10, 9, 16, 11, 16]
+
+n	a	ʊ	ʔ	n	-	-
+n	a	-	-	-	p	m
+n	a	ʊ	ʔ	n	-
+n	a	-	-	p	m
+n	a	ʊ	ʔ	n	-
+n	a	-	p	-	m
+n	a	ʊ	ʔ	n	-
+n	a	p	-	-	m
+n	a	ʊ	ʔ	-	n
+n	a	-	-	p	m
+n	a	ʊ	ʔ	n
+n	a	-	p	m
+n	a	ʊ	ʔ	n
+n	a	p	-	m
+n	a	ʊ	-	ʔ	n
+n	a	-	p	m	-
+n	a	ʊ	ʔ	n
+n	a	p	m	-
+n	a	-	ʊ	ʔ	n
+n	a	p	m	-	-
+name: [20, 15, 13, 16, 13, 6, 9, 14, 10, 16]
+
+b	ʁ	u	-	-	ð	ɔ	-	-
+b	-	-	r	o	ð	-	ɪ	s
+b	ʁ	u	-	ð	ɔ	-	-
+b	-	r	o	ð	-	ɪ	s
+b	ʁ	u	-	ð	ɔ	-	-
+b	r	-	o	ð	-	ɪ	s
+b	ʁ	-	u	ð	ɔ	-	-
+b	-	r	o	ð	-	ɪ	s
+b	ʁ	u	ð	ɔ	-	-
+b	r	o	ð	-	ɪ	s
+b	-	ʁ	u	ð	ɔ	-	-
+b	r	o	-	ð	-	ɪ	s
+b	ʁ	u	-	-	ð	ɔ	-
+b	-	-	r	o	ð	ɪ	s
+b	ʁ	u	-	ð	ɔ	-
+b	-	r	o	ð	ɪ	s
+b	ʁ	u	-	ð	ɔ	-
+b	r	-	o	ð	ɪ	s
+b	ʁ	-	u	ð	ɔ	-
+b	-	r	o	ð	ɪ	s
+b	ʁ	u	ð	ɔ	-
+b	r	o	ð	ɪ	s
+b	-	ʁ	u	ð	ɔ	-
+b	r	o	-	ð	ɪ	s
+b	ʁ	u	-	-	ð	-	ɔ
+b	-	-	r	o	ð	ɪ	s
+b	ʁ	u	-	ð	-	ɔ
+b	-	r	o	ð	ɪ	s
+b	ʁ	u	-	ð	-	ɔ
+b	r	-	o	ð	ɪ	s
+b	ʁ	-	u	ð	-	ɔ
+b	-	r	o	ð	ɪ	s
+b	ʁ	u	ð	-	ɔ
+b	r	o	ð	ɪ	s
+b	-	ʁ	u	ð	-	ɔ
+b	r	o	-	ð	ɪ	s
+brother: [28, 23, 21, 21, 14, 22, 23, 18, 16, 16, 9, 17, 24, 19, 17, 17, 10, 18]
+
+n	ɔ	-	-	ɪ	n
+n	-	a	c	ɪ	n
+n	ɔ	-	ɪ	n
+n	a	c	ɪ	n
+n	-	ɔ	ɪ	n
+n	a	c	ɪ	n
+naked: [12, 7, 9]
+
+n	ɛ	-	-	t
+n	-	ɔ	ʊ	t
+n	ɛ	-	t
+n	ɔ	ʊ	t
+n	-	ɛ	t
+n	ɔ	ʊ	t
+night: [12, 6, 7]
+
+b	i	ʔ	-	-	n
+b	-	-	ɛ	ɪ	n
+b	i	ʔ	-	n
+b	-	ɛ	ɪ	n
+b	i	ʔ	-	n
+b	ɛ	-	ɪ	n
+b	i	-	ʔ	n
+b	-	ɛ	ɪ	n
+b	i	ʔ	n
+b	ɛ	ɪ	n
+b	-	i	ʔ	n
+b	ɛ	ɪ	-	n
+bone: [16, 13, 11, 12, 7, 10]
+
+ʁ	-	-	a	t
+-	r	ɪ	a	t
+ʁ	-	a	t
+r	ɪ	a	t
+-	ʁ	a	t
+r	ɪ	a	t
+right: [12, 5, 6]
+
+t	s	i	ʔ	-	-
+t	-	i	-	j	ʏ
+t	s	i	ʔ	-
+t	-	i	j	ʏ
+t	s	i	-	ʔ
+t	-	i	j	ʏ
+ten: [16, 11, 13]
+
+h	u	s
+h	u	s
+house: [0]
+
+f	ɪ	s	k
+f	ɪ	s	k
+fish: [0]
+
+w	o	ə	-	-	-	-	n
+-	-	-	h	ɔ	r	ʔ	n
+w	o	ə	-	-	-	n
+-	-	h	ɔ	r	ʔ	n
+w	o	ə	-	-	-	n
+-	h	-	ɔ	r	ʔ	n
+w	o	ə	-	-	-	n
+h	-	-	ɔ	r	ʔ	n
+w	o	-	ə	-	-	n
+-	-	h	ɔ	r	ʔ	n
+w	o	ə	-	-	n
+-	h	ɔ	r	ʔ	n
+w	o	ə	-	-	n
+h	-	ɔ	r	ʔ	n
+w	-	o	ə	-	-	n
+-	h	ɔ	-	r	ʔ	n
+w	o	ə	-	-	n
+h	ɔ	-	r	ʔ	n
+-	w	o	ə	-	-	n
+h	ɔ	-	-	r	ʔ	n
+w	o	-	-	ə	-	n
+-	-	h	ɔ	r	ʔ	n
+w	o	-	ə	-	n
+-	h	ɔ	r	ʔ	n
+w	o	-	ə	-	n
+h	-	ɔ	r	ʔ	n
+w	-	o	ə	-	n
+-	h	ɔ	r	ʔ	n
+w	o	ə	-	n
+h	ɔ	r	ʔ	n
+-	w	o	ə	-	n
+h	ɔ	-	r	ʔ	n
+w	-	-	o	ə	-	n
+-	h	ɔ	r	-	ʔ	n
+w	-	o	ə	-	n
+h	ɔ	r	-	ʔ	n
+-	w	o	ə	-	n
+h	ɔ	r	-	ʔ	n
+-	-	w	o	ə	-	n
+h	ɔ	r	-	-	ʔ	n
+w	o	-	-	-	ə	n
+-	-	h	ɔ	r	ʔ	n
+w	o	-	-	ə	n
+-	h	ɔ	r	ʔ	n
+w	o	-	-	ə	n
+h	-	ɔ	r	ʔ	n
+w	-	o	-	ə	n
+-	h	ɔ	r	ʔ	n
+w	o	-	ə	n
+h	ɔ	r	ʔ	n
+-	w	o	-	ə	n
+h	ɔ	-	r	ʔ	n
+w	-	-	o	ə	n
+-	h	ɔ	r	ʔ	n
+w	-	o	ə	n
+h	ɔ	r	ʔ	n
+-	w	o	ə	n
+h	ɔ	r	ʔ	n
+-	-	w	o	ə	n
+h	ɔ	r	-	ʔ	n
+w	-	-	-	o	ə	n
+-	h	ɔ	r	ʔ	-	n
+w	-	-	o	ə	n
+h	ɔ	r	ʔ	-	n
+-	w	-	o	ə	n
+h	ɔ	r	ʔ	-	n
+-	-	w	o	ə	n
+h	ɔ	r	ʔ	-	n
+-	-	-	w	o	ə	n
+h	ɔ	r	ʔ	-	-	n
+horn: [28, 23, 24, 22, 22, 18, 16, 22, 16, 22, 22, 18, 16, 16, 10, 16, 23, 17, 17, 22, 24, 20, 18, 18, 12, 18, 19, 13, 13, 18, 24, 18, 18, 18, 23]
+
+g	ʊ	ʔ	-	-	-	s
+-	-	-	ɟ	a	ɪ	s
+g	ʊ	ʔ	-	-	s
+-	-	ɟ	a	ɪ	s
+g	ʊ	ʔ	-	-	s
+-	ɟ	-	a	ɪ	s
+g	ʊ	ʔ	-	-	s
+ɟ	-	-	a	ɪ	s
+g	ʊ	-	ʔ	-	s
+-	-	ɟ	a	ɪ	s
+g	ʊ	ʔ	-	s
+-	ɟ	a	ɪ	s
+g	ʊ	ʔ	-	s
+ɟ	-	a	ɪ	s
+g	-	ʊ	ʔ	-	s
+-	ɟ	a	-	ɪ	s
+g	ʊ	ʔ	-	s
+ɟ	a	-	ɪ	s
+-	g	ʊ	ʔ	-	s
+ɟ	a	-	-	ɪ	s
+g	ʊ	-	-	ʔ	s
+-	-	ɟ	a	ɪ	s
+g	ʊ	-	ʔ	s
+-	ɟ	a	ɪ	s
+g	ʊ	-	ʔ	s
+ɟ	-	a	ɪ	s
+g	-	ʊ	ʔ	s
+-	ɟ	a	ɪ	s
+g	ʊ	ʔ	s
+ɟ	a	ɪ	s
+-	g	ʊ	ʔ	s
+ɟ	a	-	ɪ	s
+g	-	-	ʊ	ʔ	s
+-	ɟ	a	ɪ	-	s
+g	-	ʊ	ʔ	s
+ɟ	a	ɪ	-	s
+-	g	ʊ	ʔ	s
+ɟ	a	ɪ	-	s
+-	-	g	ʊ	ʔ	s
+ɟ	a	ɪ	-	-	s
+goose: [24, 18, 20, 18, 21, 17, 15, 20, 14, 20, 20, 16, 14, 16, 10, 16, 19, 13, 15, 20]
+
+ʔ	ɔ	ʔ	-	-	-
+-	-	-	a	ʊ	r
+ʔ	ɔ	ʔ	-	-
+-	-	a	ʊ	r
+ʔ	ɔ	ʔ	-	-
+-	a	-	ʊ	r
+ʔ	ɔ	ʔ	-	-
+a	-	-	ʊ	r
+ʔ	ɔ	-	ʔ	-
+-	-	a	ʊ	r
+ʔ	ɔ	ʔ	-
+-	a	ʊ	r
+ʔ	ɔ	ʔ	-
+a	-	ʊ	r
+ʔ	-	ɔ	ʔ	-
+-	a	ʊ	-	r
+ʔ	ɔ	ʔ	-
+a	ʊ	-	r
+-	ʔ	ɔ	ʔ	-
+a	ʊ	-	-	r
+ʔ	ɔ	-	-	ʔ
+-	-	a	ʊ	r
+ʔ	ɔ	-	ʔ
+-	a	ʊ	r
+ʔ	ɔ	-	ʔ
+a	-	ʊ	r
+ʔ	-	ɔ	ʔ
+-	a	ʊ	r
+ʔ	ɔ	ʔ
+a	ʊ	r
+-	ʔ	ɔ	ʔ
+a	ʊ	-	r
+ʔ	-	-	ɔ	ʔ
+-	a	ʊ	r	-
+ʔ	-	ɔ	ʔ
+a	ʊ	r	-
+-	ʔ	ɔ	ʔ
+a	ʊ	r	-
+-	-	ʔ	ɔ	ʔ
+a	ʊ	r	-	-
+year: [24, 21, 19, 21, 20, 15, 17, 17, 14, 20, 19, 14, 16, 12, 9, 15, 19, 16, 15, 19]
+
+j	-	-	ɪ	m	ʔ
+-	h	ɛ	ɪ	m	-
+j	-	ɪ	m	ʔ
+h	ɛ	ɪ	m	-
+-	j	ɪ	m	ʔ
+h	ɛ	ɪ	m	-
+home: [16, 10, 10]
+
+ʔ	u	l	ʔ	-
+-	u	-	-	t
+ʔ	u	l	ʔ
+-	u	-	t
+ʔ	u	l	ʔ
+-	u	t	-
+out: [16, 9, 10]
+
+-	v	ɛ	l	-	-
+k	v	-	-	a	θ
+-	v	ɛ	l	-
+k	v	-	a	θ
+-	v	ɛ	l	-
+k	v	a	-	θ
+-	v	ɛ	-	l
+k	v	-	a	θ
+-	v	ɛ	l
+k	v	a	θ
+-	v	-	ɛ	l
+k	v	a	θ	-
+what: [20, 15, 15, 14, 9, 16]
+
+t	s	o	ɐ	d	n	-	-	-	-
+-	-	-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n	-	-	-
+-	-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n	-	-	-
+-	-	-	-	θ	-	ɔ	r	a
+t	s	o	ɐ	d	n	-	-	-
+-	-	-	θ	-	-	ɔ	r	a
+t	s	o	ɐ	d	n	-	-	-
+-	-	θ	-	-	-	ɔ	r	a
+t	s	o	ɐ	d	n	-	-	-
+-	θ	-	-	-	-	ɔ	r	a
+t	s	o	ɐ	d	n	-	-	-
+θ	-	-	-	-	-	ɔ	r	a
+t	s	o	ɐ	d	-	n	-	-
+-	-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n	-	-
+-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n	-	-
+-	-	-	θ	-	ɔ	r	a
+t	s	o	ɐ	d	n	-	-
+-	-	θ	-	-	ɔ	r	a
+t	s	o	ɐ	d	n	-	-
+-	θ	-	-	-	ɔ	r	a
+t	s	o	ɐ	d	n	-	-
+θ	-	-	-	-	ɔ	r	a
+t	s	o	ɐ	-	d	n	-	-
+-	-	-	-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	n	-	-
+-	-	-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	n	-	-
+-	-	θ	-	ɔ	-	r	a
+t	s	o	ɐ	d	n	-	-
+-	θ	-	-	ɔ	-	r	a
+t	s	o	ɐ	d	n	-	-
+θ	-	-	-	ɔ	-	r	a
+t	s	o	-	ɐ	d	n	-	-
+-	-	-	θ	ɔ	-	-	r	a
+t	s	o	ɐ	d	n	-	-
+-	-	θ	ɔ	-	-	r	a
+t	s	o	ɐ	d	n	-	-
+-	θ	-	ɔ	-	-	r	a
+t	s	o	ɐ	d	n	-	-
+θ	-	-	ɔ	-	-	r	a
+t	s	-	o	ɐ	d	n	-	-
+-	-	θ	ɔ	-	-	-	r	a
+t	s	o	ɐ	d	n	-	-
+-	θ	ɔ	-	-	-	r	a
+t	s	o	ɐ	d	n	-	-
+θ	-	ɔ	-	-	-	r	a
+t	-	s	o	ɐ	d	n	-	-
+-	θ	ɔ	-	-	-	-	r	a
+t	s	o	ɐ	d	n	-	-
+θ	ɔ	-	-	-	-	r	a
+-	t	s	o	ɐ	d	n	-	-
+θ	ɔ	-	-	-	-	-	r	a
+t	s	o	ɐ	d	-	-	n	-
+-	-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	-	n	-
+-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	-	n	-
+-	-	-	θ	-	ɔ	r	a
+t	s	o	ɐ	d	-	n	-
+-	-	θ	-	-	ɔ	r	a
+t	s	o	ɐ	d	-	n	-
+-	θ	-	-	-	ɔ	r	a
+t	s	o	ɐ	d	-	n	-
+θ	-	-	-	-	ɔ	r	a
+t	s	o	ɐ	-	d	n	-
+-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n	-
+-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n	-
+-	-	θ	-	ɔ	r	a
+t	s	o	ɐ	d	n	-
+-	θ	-	-	ɔ	r	a
+t	s	o	ɐ	d	n	-
+θ	-	-	-	ɔ	r	a
+t	s	o	-	ɐ	d	n	-
+-	-	-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	n	-
+-	-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	n	-
+-	θ	-	ɔ	-	r	a
+t	s	o	ɐ	d	n	-
+θ	-	-	ɔ	-	r	a
+t	s	-	o	ɐ	d	n	-
+-	-	θ	ɔ	-	-	r	a
+t	s	o	ɐ	d	n	-
+-	θ	ɔ	-	-	r	a
+t	s	o	ɐ	d	n	-
+θ	-	ɔ	-	-	r	a
+t	-	s	o	ɐ	d	n	-
+-	θ	ɔ	-	-	-	r	a
+t	s	o	ɐ	d	n	-
+θ	ɔ	-	-	-	r	a
+-	t	s	o	ɐ	d	n	-
+θ	ɔ	-	-	-	-	r	a
+t	s	o	ɐ	-	-	d	n	-
+-	-	-	-	θ	ɔ	r	-	a
+t	s	o	ɐ	-	d	n	-
+-	-	-	θ	ɔ	r	-	a
+t	s	o	ɐ	-	d	n	-
+-	-	θ	-	ɔ	r	-	a
+t	s	o	ɐ	-	d	n	-
+-	θ	-	-	ɔ	r	-	a
+t	s	o	ɐ	-	d	n	-
+θ	-	-	-	ɔ	r	-	a
+t	s	o	-	ɐ	d	n	-
+-	-	-	θ	ɔ	r	-	a
+t	s	o	ɐ	d	n	-
+-	-	θ	ɔ	r	-	a
+t	s	o	ɐ	d	n	-
+-	θ	-	ɔ	r	-	a
+t	s	o	ɐ	d	n	-
+θ	-	-	ɔ	r	-	a
+t	s	-	o	ɐ	d	n	-
+-	-	θ	ɔ	-	r	-	a
+t	s	o	ɐ	d	n	-
+-	θ	ɔ	-	r	-	a
+t	s	o	ɐ	d	n	-
+θ	-	ɔ	-	r	-	a
+t	-	s	o	ɐ	d	n	-
+-	θ	ɔ	-	-	r	-	a
+t	s	o	ɐ	d	n	-
+θ	ɔ	-	-	r	-	a
+-	t	s	o	ɐ	d	n	-
+θ	ɔ	-	-	-	r	-	a
+t	s	o	-	-	ɐ	d	n	-
+-	-	-	θ	ɔ	r	-	-	a
+t	s	o	-	ɐ	d	n	-
+-	-	θ	ɔ	r	-	-	a
+t	s	o	-	ɐ	d	n	-
+-	θ	-	ɔ	r	-	-	a
+t	s	o	-	ɐ	d	n	-
+θ	-	-	ɔ	r	-	-	a
+t	s	-	o	ɐ	d	n	-
+-	-	θ	ɔ	r	-	-	a
+t	s	o	ɐ	d	n	-
+-	θ	ɔ	r	-	-	a
+t	s	o	ɐ	d	n	-
+θ	-	ɔ	r	-	-	a
+t	-	s	o	ɐ	d	n	-
+-	θ	ɔ	-	r	-	-	a
+t	s	o	ɐ	d	n	-
+θ	ɔ	-	r	-	-	a
+-	t	s	o	ɐ	d	n	-
+θ	ɔ	-	-	r	-	-	a
+t	s	-	-	o	ɐ	d	n	-
+-	-	θ	ɔ	r	-	-	-	a
+t	s	-	o	ɐ	d	n	-
+-	θ	ɔ	r	-	-	-	a
+t	s	-	o	ɐ	d	n	-
+θ	-	ɔ	r	-	-	-	a
+t	-	s	o	ɐ	d	n	-
+-	θ	ɔ	r	-	-	-	a
+t	s	o	ɐ	d	n	-
+θ	ɔ	r	-	-	-	a
+-	t	s	o	ɐ	d	n	-
+θ	ɔ	-	r	-	-	-	a
+t	-	-	s	o	ɐ	d	n	-
+-	θ	ɔ	r	-	-	-	-	a
+t	-	s	o	ɐ	d	n	-
+θ	ɔ	r	-	-	-	-	a
+-	t	s	o	ɐ	d	n	-
+θ	ɔ	r	-	-	-	-	a
+-	-	t	s	o	ɐ	d	n	-
+θ	ɔ	r	-	-	-	-	-	a
+t	s	o	ɐ	d	-	-	-	n
+-	-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	-	-	n
+-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	-	-	n
+-	-	-	θ	-	ɔ	r	a
+t	s	o	ɐ	d	-	-	n
+-	-	θ	-	-	ɔ	r	a
+t	s	o	ɐ	d	-	-	n
+-	θ	-	-	-	ɔ	r	a
+t	s	o	ɐ	d	-	-	n
+θ	-	-	-	-	ɔ	r	a
+t	s	o	ɐ	-	d	-	n
+-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	-	n
+-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	-	n
+-	-	θ	-	ɔ	r	a
+t	s	o	ɐ	d	-	n
+-	θ	-	-	ɔ	r	a
+t	s	o	ɐ	d	-	n
+θ	-	-	-	ɔ	r	a
+t	s	o	-	ɐ	d	-	n
+-	-	-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	-	n
+-	-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	-	n
+-	θ	-	ɔ	-	r	a
+t	s	o	ɐ	d	-	n
+θ	-	-	ɔ	-	r	a
+t	s	-	o	ɐ	d	-	n
+-	-	θ	ɔ	-	-	r	a
+t	s	o	ɐ	d	-	n
+-	θ	ɔ	-	-	r	a
+t	s	o	ɐ	d	-	n
+θ	-	ɔ	-	-	r	a
+t	-	s	o	ɐ	d	-	n
+-	θ	ɔ	-	-	-	r	a
+t	s	o	ɐ	d	-	n
+θ	ɔ	-	-	-	r	a
+-	t	s	o	ɐ	d	-	n
+θ	ɔ	-	-	-	-	r	a
+t	s	o	ɐ	-	-	d	n
+-	-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	-	d	n
+-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	-	d	n
+-	-	θ	-	ɔ	r	a
+t	s	o	ɐ	-	d	n
+-	θ	-	-	ɔ	r	a
+t	s	o	ɐ	-	d	n
+θ	-	-	-	ɔ	r	a
+t	s	o	-	ɐ	d	n
+-	-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n
+-	-	θ	ɔ	r	a
+t	s	o	ɐ	d	n
+-	θ	-	ɔ	r	a
+t	s	o	ɐ	d	n
+θ	-	-	ɔ	r	a
+t	s	-	o	ɐ	d	n
+-	-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	n
+-	θ	ɔ	-	r	a
+t	s	o	ɐ	d	n
+θ	-	ɔ	-	r	a
+t	-	s	o	ɐ	d	n
+-	θ	ɔ	-	-	r	a
+t	s	o	ɐ	d	n
+θ	ɔ	-	-	r	a
+-	t	s	o	ɐ	d	n
+θ	ɔ	-	-	-	r	a
+t	s	o	-	-	ɐ	d	n
+-	-	-	θ	ɔ	r	-	a
+t	s	o	-	ɐ	d	n
+-	-	θ	ɔ	r	-	a
+t	s	o	-	ɐ	d	n
+-	θ	-	ɔ	r	-	a
+t	s	o	-	ɐ	d	n
+θ	-	-	ɔ	r	-	a
+t	s	-	o	ɐ	d	n
+-	-	θ	ɔ	r	-	a
+t	s	o	ɐ	d	n
+-	θ	ɔ	r	-	a
+t	s	o	ɐ	d	n
+θ	-	ɔ	r	-	a
+t	-	s	o	ɐ	d	n
+-	θ	ɔ	-	r	-	a
+t	s	o	ɐ	d	n
+θ	ɔ	-	r	-	a
+-	t	s	o	ɐ	d	n
+θ	ɔ	-	-	r	-	a
+t	s	-	-	o	ɐ	d	n
+-	-	θ	ɔ	r	-	-	a
+t	s	-	o	ɐ	d	n
+-	θ	ɔ	r	-	-	a
+t	s	-	o	ɐ	d	n
+θ	-	ɔ	r	-	-	a
+t	-	s	o	ɐ	d	n
+-	θ	ɔ	r	-	-	a
+t	s	o	ɐ	d	n
+θ	ɔ	r	-	-	a
+-	t	s	o	ɐ	d	n
+θ	ɔ	-	r	-	-	a
+t	-	-	s	o	ɐ	d	n
+-	θ	ɔ	r	-	-	-	a
+t	-	s	o	ɐ	d	n
+θ	ɔ	r	-	-	-	a
+-	t	s	o	ɐ	d	n
+θ	ɔ	r	-	-	-	a
+-	-	t	s	o	ɐ	d	n
+θ	ɔ	r	-	-	-	-	a
+t	s	o	ɐ	-	-	-	d	n
+-	-	-	-	θ	ɔ	r	a	-
+t	s	o	ɐ	-	-	d	n
+-	-	-	θ	ɔ	r	a	-
+t	s	o	ɐ	-	-	d	n
+-	-	θ	-	ɔ	r	a	-
+t	s	o	ɐ	-	-	d	n
+-	θ	-	-	ɔ	r	a	-
+t	s	o	ɐ	-	-	d	n
+θ	-	-	-	ɔ	r	a	-
+t	s	o	-	ɐ	-	d	n
+-	-	-	θ	ɔ	r	a	-
+t	s	o	ɐ	-	d	n
+-	-	θ	ɔ	r	a	-
+t	s	o	ɐ	-	d	n
+-	θ	-	ɔ	r	a	-
+t	s	o	ɐ	-	d	n
+θ	-	-	ɔ	r	a	-
+t	s	-	o	ɐ	-	d	n
+-	-	θ	ɔ	-	r	a	-
+t	s	o	ɐ	-	d	n
+-	θ	ɔ	-	r	a	-
+t	s	o	ɐ	-	d	n
+θ	-	ɔ	-	r	a	-
+t	-	s	o	ɐ	-	d	n
+-	θ	ɔ	-	-	r	a	-
+t	s	o	ɐ	-	d	n
+θ	ɔ	-	-	r	a	-
+-	t	s	o	ɐ	-	d	n
+θ	ɔ	-	-	-	r	a	-
+t	s	o	-	-	ɐ	d	n
+-	-	-	θ	ɔ	r	a	-
+t	s	o	-	ɐ	d	n
+-	-	θ	ɔ	r	a	-
+t	s	o	-	ɐ	d	n
+-	θ	-	ɔ	r	a	-
+t	s	o	-	ɐ	d	n
+θ	-	-	ɔ	r	a	-
+t	s	-	o	ɐ	d	n
+-	-	θ	ɔ	r	a	-
+t	s	o	ɐ	d	n
+-	θ	ɔ	r	a	-
+t	s	o	ɐ	d	n
+θ	-	ɔ	r	a	-
+t	-	s	o	ɐ	d	n
+-	θ	ɔ	-	r	a	-
+t	s	o	ɐ	d	n
+θ	ɔ	-	r	a	-
+-	t	s	o	ɐ	d	n
+θ	ɔ	-	-	r	a	-
+t	s	-	-	o	ɐ	d	n
+-	-	θ	ɔ	r	-	a	-
+t	s	-	o	ɐ	d	n
+-	θ	ɔ	r	-	a	-
+t	s	-	o	ɐ	d	n
+θ	-	ɔ	r	-	a	-
+t	-	s	o	ɐ	d	n
+-	θ	ɔ	r	-	a	-
+t	s	o	ɐ	d	n
+θ	ɔ	r	-	a	-
+-	t	s	o	ɐ	d	n
+θ	ɔ	-	r	-	a	-
+t	-	-	s	o	ɐ	d	n
+-	θ	ɔ	r	-	-	a	-
+t	-	s	o	ɐ	d	n
+θ	ɔ	r	-	-	a	-
+-	t	s	o	ɐ	d	n
+θ	ɔ	r	-	-	a	-
+-	-	t	s	o	ɐ	d	n
+θ	ɔ	r	-	-	-	a	-
+t	s	o	-	-	-	ɐ	d	n
+-	-	-	θ	ɔ	r	a	-	-
+t	s	o	-	-	ɐ	d	n
+-	-	θ	ɔ	r	a	-	-
+t	s	o	-	-	ɐ	d	n
+-	θ	-	ɔ	r	a	-	-
+t	s	o	-	-	ɐ	d	n
+θ	-	-	ɔ	r	a	-	-
+t	s	-	o	-	ɐ	d	n
+-	-	θ	ɔ	r	a	-	-
+t	s	o	-	ɐ	d	n
+-	θ	ɔ	r	a	-	-
+t	s	o	-	ɐ	d	n
+θ	-	ɔ	r	a	-	-
+t	-	s	o	-	ɐ	d	n
+-	θ	ɔ	-	r	a	-	-
+t	s	o	-	ɐ	d	n
+θ	ɔ	-	r	a	-	-
+-	t	s	o	-	ɐ	d	n
+θ	ɔ	-	-	r	a	-	-
+t	s	-	-	o	ɐ	d	n
+-	-	θ	ɔ	r	a	-	-
+t	s	-	o	ɐ	d	n
+-	θ	ɔ	r	a	-	-
+t	s	-	o	ɐ	d	n
+θ	-	ɔ	r	a	-	-
+t	-	s	o	ɐ	d	n
+-	θ	ɔ	r	a	-	-
+t	s	o	ɐ	d	n
+θ	ɔ	r	a	-	-
+-	t	s	o	ɐ	d	n
+θ	ɔ	-	r	a	-	-
+t	-	-	s	o	ɐ	d	n
+-	θ	ɔ	r	-	a	-	-
+t	-	s	o	ɐ	d	n
+θ	ɔ	r	-	a	-	-
+-	t	s	o	ɐ	d	n
+θ	ɔ	r	-	a	-	-
+-	-	t	s	o	ɐ	d	n
+θ	ɔ	r	-	-	a	-	-
+t	s	-	-	-	o	ɐ	d	n
+-	-	θ	ɔ	r	a	-	-	-
+t	s	-	-	o	ɐ	d	n
+-	θ	ɔ	r	a	-	-	-
+t	s	-	-	o	ɐ	d	n
+θ	-	ɔ	r	a	-	-	-
+t	-	s	-	o	ɐ	d	n
+-	θ	ɔ	r	a	-	-	-
+t	s	-	o	ɐ	d	n
+θ	ɔ	r	a	-	-	-
+-	t	s	-	o	ɐ	d	n
+θ	ɔ	-	r	a	-	-	-
+t	-	-	s	o	ɐ	d	n
+-	θ	ɔ	r	a	-	-	-
+t	-	s	o	ɐ	d	n
+θ	ɔ	r	a	-	-	-
+-	t	s	o	ɐ	d	n
+θ	ɔ	r	a	-	-	-
+-	-	t	s	o	ɐ	d	n
+θ	ɔ	r	-	a	-	-	-
+t	-	-	-	s	o	ɐ	d	n
+-	θ	ɔ	r	a	-	-	-	-
+t	-	-	s	o	ɐ	d	n
+θ	ɔ	r	a	-	-	-	-
+-	t	-	s	o	ɐ	d	n
+θ	ɔ	r	a	-	-	-	-
+-	-	t	s	o	ɐ	d	n
+θ	ɔ	r	a	-	-	-	-
+-	-	-	t	s	o	ɐ	d	n
+θ	ɔ	r	a	-	-	-	-	-
+thunder: [40, 35, 34, 36, 35, 34, 33, 35, 29, 31, 30, 29, 28, 35, 31, 30, 29, 28, 34, 29, 28, 27, 34, 28, 27, 36, 29, 36, 33, 27, 29, 28, 27, 26, 28, 24, 23, 22, 21, 27, 22, 21, 20, 27, 21, 20, 29, 22, 29, 33, 29, 28, 27, 26, 27, 22, 21, 20, 27, 21, 20, 29, 22, 29, 35, 30, 29, 28, 29, 23, 22, 31, 24, 31, 35, 29, 28, 31, 24, 31, 34, 27, 30, 34, 35, 29, 31, 30, 29, 28, 30, 26, 25, 24, 23, 29, 24, 23, 22, 29, 23, 22, 31, 24, 31, 28, 24, 23, 22, 21, 22, 17, 16, 15, 22, 16, 15, 24, 17, 24, 30, 25, 24, 23, 24, 18, 17, 26, 19, 26, 30, 24, 23, 26, 19, 26, 29, 22, 25, 29, 35, 31, 30, 29, 28, 29, 24, 23, 22, 29, 23, 22, 31, 24, 31, 30, 25, 24, 23, 24, 18, 17, 26, 19, 26, 30, 24, 23, 26, 19, 26, 29, 22, 25, 29, 33, 28, 27, 26, 27, 21, 20, 29, 22, 29, 28, 22, 21, 24, 17, 24, 27, 20, 23, 27, 35, 29, 28, 31, 24, 31, 29, 22, 25, 29, 36, 29, 32, 30, 36]
+
+ʔ	i	ʔ	s
+-	i	-	s
+ice: [8]
+
+m	u	-	-	n	ə	-
+m	-	ɑ	ʊ	n	-	e
+m	u	-	n	ə	-
+m	ɑ	ʊ	n	-	e
+m	-	u	n	ə	-
+m	ɑ	ʊ	n	-	e
+m	u	-	-	n	ə
+m	-	ɑ	ʊ	n	e
+m	u	-	n	ə
+m	ɑ	ʊ	n	e
+m	-	u	n	ə
+m	ɑ	ʊ	n	e
+moon: [20, 15, 14, 16, 11, 10]
+
+n	y	ʔ	-
+n	-	-	i
+n	y	ʔ
+n	-	i
+n	y	ʔ
+n	i	-
+new: [12, 8, 5]
+
+f	u	-	-	l	ʔ
+f	-	ʏ	t	l	-
+f	u	-	l	ʔ
+f	ʏ	t	l	-
+f	-	u	l	ʔ
+f	ʏ	t	l	-
+full: [16, 12, 12]
+
+k	o	ə	-	-	-	n
+k	-	-	ɔ	r	t	n
+k	o	ə	-	-	n
+k	-	ɔ	r	t	n
+k	o	ə	-	-	n
+k	ɔ	-	r	t	n
+k	o	-	ə	-	n
+k	-	ɔ	r	t	n
+k	o	ə	-	n
+k	ɔ	r	t	n
+k	-	o	ə	-	n
+k	ɔ	r	-	t	n
+k	o	-	-	ə	n
+k	-	ɔ	r	t	n
+k	o	-	ə	n
+k	ɔ	r	t	n
+k	-	o	ə	n
+k	ɔ	r	t	n
+k	-	-	o	ə	n
+k	ɔ	r	t	-	n
+corn: [20, 14, 14, 14, 8, 15, 15, 9, 10, 15]
+
+ʔ	ɛ	-	s	k	ə	-
+-	-	a	s	k	-	a
+ʔ	ɛ	s	k	ə	-
+-	a	s	k	-	a
+ʔ	ɛ	s	k	ə	-
+a	-	s	k	-	a
+ʔ	ɛ	-	s	k	ə
+-	-	a	s	k	a
+ʔ	ɛ	s	k	ə
+-	a	s	k	a
+ʔ	ɛ	s	k	ə
+a	-	s	k	a
+ash: [20, 15, 17, 15, 10, 12]
+
+s	t	i	ʔ	-	-	n
+s	t	-	-	ɛ	t	n
+s	t	i	ʔ	-	n
+s	t	-	ɛ	t	n
+s	t	i	ʔ	-	n
+s	t	ɛ	-	t	n
+s	t	i	-	ʔ	n
+s	t	-	ɛ	t	n
+s	t	i	ʔ	n
+s	t	ɛ	t	n
+s	t	-	i	ʔ	n
+s	t	ɛ	t	-	n
+s	-	-	t	i	ʔ	n
+s	t	ɛ	t	-	-	n
+stone: [16, 13, 11, 9, 4, 12, 16]
+
+g	ɔ	l	ʔ	-	-	-
+g	-	-	-	a	r	θ
+g	ɔ	l	ʔ	-	-
+g	-	-	a	r	θ
+g	ɔ	l	ʔ	-	-
+g	-	a	-	r	θ
+g	ɔ	l	ʔ	-	-
+g	a	-	-	r	θ
+g	ɔ	l	-	ʔ	-
+g	-	-	a	r	θ
+g	ɔ	l	ʔ	-
+g	-	a	r	θ
+g	ɔ	l	ʔ	-
+g	a	-	r	θ
+g	ɔ	-	l	ʔ	-
+g	-	a	r	-	θ
+g	ɔ	l	ʔ	-
+g	a	r	-	θ
+g	-	ɔ	l	ʔ	-
+g	a	r	-	-	θ
+g	ɔ	l	-	-	ʔ
+g	-	-	a	r	θ
+g	ɔ	l	-	ʔ
+g	-	a	r	θ
+g	ɔ	l	-	ʔ
+g	a	-	r	θ
+g	ɔ	-	l	ʔ
+g	-	a	r	θ
+g	ɔ	l	ʔ
+g	a	r	θ
+g	-	ɔ	l	ʔ
+g	a	r	-	θ
+g	ɔ	-	-	l	ʔ
+g	-	a	r	θ	-
+g	ɔ	-	l	ʔ
+g	a	r	θ	-
+g	-	ɔ	l	ʔ
+g	a	r	θ	-
+g	-	-	ɔ	l	ʔ
+g	a	r	θ	-	-
+yard: [24, 21, 19, 19, 19, 14, 14, 18, 13, 19, 18, 13, 13, 12, 7, 13, 18, 13, 13, 20]
+
+k	u	ʔ
+k	u	-
+cow: [4]
+
+s	v	ɛ	ʔ	o	-	-	-
+s	v	ɛ	-	-	r	j	a
+s	v	ɛ	ʔ	o	-	-
+s	v	ɛ	-	r	j	a
+s	v	ɛ	ʔ	o	-	-
+s	v	ɛ	r	-	j	a
+s	v	ɛ	ʔ	-	o	-
+s	v	ɛ	-	r	j	a
+s	v	ɛ	ʔ	o	-
+s	v	ɛ	r	j	a
+s	v	ɛ	-	ʔ	o	-
+s	v	ɛ	r	j	-	a
+s	v	ɛ	ʔ	-	-	o
+s	v	ɛ	-	r	j	a
+s	v	ɛ	ʔ	-	o
+s	v	ɛ	r	j	a
+s	v	ɛ	-	ʔ	o
+s	v	ɛ	r	j	a
+s	v	ɛ	-	-	ʔ	o
+s	v	ɛ	r	j	a	-
+swear: [20, 15, 15, 14, 9, 15, 15, 10, 10, 17]
+
+t	ʊ	ŋ	ə	-	-
+t	ʊ	ŋ	-	k	a
+t	ʊ	ŋ	ə	-
+t	ʊ	ŋ	k	a
+t	ʊ	ŋ	-	ə
+t	ʊ	ŋ	k	a
+tongue: [12, 8, 7]
+
+b	ɛ	l	ʔ	-	-
+b	-	-	-	a	θ
+b	ɛ	l	ʔ	-
+b	-	-	a	θ
+b	ɛ	l	ʔ	-
+b	-	a	-	θ
+b	ɛ	l	ʔ	-
+b	a	-	-	θ
+b	ɛ	l	-	ʔ
+b	-	-	a	θ
+b	ɛ	l	ʔ
+b	-	a	θ
+b	ɛ	l	ʔ
+b	a	-	θ
+b	ɛ	-	l	ʔ
+b	-	a	θ	-
+b	ɛ	l	ʔ
+b	a	θ	-
+b	-	ɛ	l	ʔ
+b	a	θ	-	-
+bath: [20, 17, 15, 15, 14, 9, 9, 14, 9, 16]
+
+t	s	ʊ	ʔ	-	-
+t	-	-	-	v	œ
+t	s	ʊ	ʔ	-
+t	-	-	v	œ
+t	s	ʊ	ʔ	-
+t	-	v	-	œ
+t	s	ʊ	ʔ	-
+t	v	-	-	œ
+t	s	ʊ	-	ʔ
+t	-	-	v	œ
+t	s	ʊ	ʔ
+t	-	v	œ
+t	s	ʊ	ʔ
+t	v	-	œ
+t	s	-	ʊ	ʔ
+t	-	v	œ	-
+t	s	ʊ	ʔ
+t	v	œ	-
+t	-	s	ʊ	ʔ
+t	v	œ	-	-
+two: [20, 15, 14, 15, 18, 12, 13, 14, 9, 17]
+
+v	ɛ	-	s	k	-
+v	-	a	s	k	a
+v	ɛ	s	k	-
+v	a	s	k	a
+wash: [12, 7]
+
+ʁ	-	ɪ	ŋ	ʔ	-
+-	r	ɪ	ŋ	-	k
+ʁ	ɪ	ŋ	ʔ	-
+r	ɪ	ŋ	-	k
+ʁ	-	ɪ	ŋ	ʔ
+-	r	ɪ	ŋ	k
+ʁ	ɪ	ŋ	ʔ
+r	ɪ	ŋ	k
+ring: [16, 9, 9, 2]
+
+ʔ	o	b	m	-	-	-	-
+-	o	-	-	ə	p	ɪ	n
+ʔ	o	b	m	-	-	-
+-	o	-	ə	p	ɪ	n
+ʔ	o	b	m	-	-	-
+-	o	ə	-	p	ɪ	n
+ʔ	o	b	-	m	-	-
+-	o	-	ə	p	ɪ	n
+ʔ	o	b	m	-	-
+-	o	ə	p	ɪ	n
+ʔ	o	-	b	m	-	-
+-	o	ə	p	-	ɪ	n
+ʔ	o	b	-	-	m	-
+-	o	-	ə	p	ɪ	n
+ʔ	o	b	-	m	-
+-	o	ə	p	ɪ	n
+ʔ	o	-	b	m	-
+-	o	ə	p	ɪ	n
+ʔ	o	-	-	b	m	-
+-	o	ə	p	ɪ	-	n
+ʔ	o	b	-	-	-	m
+-	o	-	ə	p	ɪ	n
+ʔ	o	b	-	-	m
+-	o	ə	p	ɪ	n
+ʔ	o	-	b	-	m
+-	o	ə	p	ɪ	n
+ʔ	o	-	-	b	m
+-	o	ə	p	ɪ	n
+ʔ	o	-	-	-	b	m
+-	o	ə	p	ɪ	n	-
+open: [28, 23, 24, 22, 18, 21, 24, 20, 17, 24, 21, 17, 14, 17, 22]
+
+ʔ	ɔ	ɪ	-	-	-	-
+-	-	-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	ɪ	-	-	-
+-	-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	ɪ	-	-	-
+-	ɛ	-	ʏ	ɣ	a
+ʔ	ɔ	ɪ	-	-	-
+ɛ	-	-	ʏ	ɣ	a
+ʔ	ɔ	-	ɪ	-	-
+-	-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	ɪ	-	-
+-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	ɪ	-	-
+ɛ	-	ʏ	ɣ	a
+ʔ	-	ɔ	ɪ	-	-
+-	ɛ	ʏ	-	ɣ	a
+ʔ	ɔ	ɪ	-	-
+ɛ	ʏ	-	ɣ	a
+-	ʔ	ɔ	ɪ	-	-
+ɛ	ʏ	-	-	ɣ	a
+ʔ	ɔ	-	-	ɪ	-
+-	-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	-	ɪ	-
+-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	-	ɪ	-
+ɛ	-	ʏ	ɣ	a
+ʔ	-	ɔ	ɪ	-
+-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	ɪ	-
+ɛ	ʏ	ɣ	a
+-	ʔ	ɔ	ɪ	-
+ɛ	ʏ	-	ɣ	a
+ʔ	-	-	ɔ	ɪ	-
+-	ɛ	ʏ	ɣ	-	a
+ʔ	-	ɔ	ɪ	-
+ɛ	ʏ	ɣ	-	a
+-	ʔ	ɔ	ɪ	-
+ɛ	ʏ	ɣ	-	a
+-	-	ʔ	ɔ	ɪ	-
+ɛ	ʏ	ɣ	-	-	a
+ʔ	ɔ	-	-	-	ɪ
+-	-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	-	-	ɪ
+-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	-	-	ɪ
+ɛ	-	ʏ	ɣ	a
+ʔ	-	ɔ	-	ɪ
+-	ɛ	ʏ	ɣ	a
+ʔ	ɔ	-	ɪ
+ɛ	ʏ	ɣ	a
+-	ʔ	ɔ	-	ɪ
+ɛ	ʏ	-	ɣ	a
+ʔ	-	-	ɔ	ɪ
+-	ɛ	ʏ	ɣ	a
+ʔ	-	ɔ	ɪ
+ɛ	ʏ	ɣ	a
+-	ʔ	ɔ	ɪ
+ɛ	ʏ	ɣ	a
+-	-	ʔ	ɔ	ɪ
+ɛ	ʏ	ɣ	-	a
+ʔ	-	-	-	ɔ	ɪ
+-	ɛ	ʏ	ɣ	a	-
+ʔ	-	-	ɔ	ɪ
+ɛ	ʏ	ɣ	a	-
+-	ʔ	-	ɔ	ɪ
+ɛ	ʏ	ɣ	a	-
+-	-	ʔ	ɔ	ɪ
+ɛ	ʏ	ɣ	a	-
+-	-	-	ʔ	ɔ	ɪ
+ɛ	ʏ	ɣ	a	-	-
+eye: [28, 21, 22, 25, 21, 15, 18, 22, 19, 25, 23, 17, 20, 17, 14, 20, 23, 20, 20, 23, 24, 18, 21, 18, 15, 21, 19, 16, 16, 19, 23, 20, 20, 18, 25]
+
+b	ɪ	l	ʔ	-	-	-
+b	-	-	-	i	t	a
+b	ɪ	l	ʔ	-	-
+b	-	-	i	t	a
+b	ɪ	l	ʔ	-	-
+b	-	i	-	t	a
+b	ɪ	l	ʔ	-	-
+b	i	-	-	t	a
+b	ɪ	l	-	ʔ	-
+b	-	-	i	t	a
+b	ɪ	l	ʔ	-
+b	-	i	t	a
+b	ɪ	l	ʔ	-
+b	i	-	t	a
+b	ɪ	-	l	ʔ	-
+b	-	i	t	-	a
+b	ɪ	l	ʔ	-
+b	i	t	-	a
+b	-	ɪ	l	ʔ	-
+b	i	t	-	-	a
+b	ɪ	l	-	-	ʔ
+b	-	-	i	t	a
+b	ɪ	l	-	ʔ
+b	-	i	t	a
+b	ɪ	l	-	ʔ
+b	i	-	t	a
+b	ɪ	-	l	ʔ
+b	-	i	t	a
+b	ɪ	l	ʔ
+b	i	t	a
+b	-	ɪ	l	ʔ
+b	i	t	-	a
+b	ɪ	-	-	l	ʔ
+b	-	i	t	a	-
+b	ɪ	-	l	ʔ
+b	i	t	a	-
+b	-	ɪ	l	ʔ
+b	i	t	a	-
+b	-	-	ɪ	l	ʔ
+b	i	t	a	-	-
+bite: [24, 20, 18, 18, 17, 11, 11, 18, 12, 20, 21, 15, 15, 15, 9, 17, 19, 13, 15, 20]
+
+t	χ	ɛ	-	-	ɪ	ʔ	-
+-	-	-	θ	r	ɪ	-	u
+t	χ	ɛ	-	ɪ	ʔ	-
+-	-	θ	r	ɪ	-	u
+t	χ	ɛ	-	ɪ	ʔ	-
+-	θ	-	r	ɪ	-	u
+t	χ	ɛ	-	ɪ	ʔ	-
+θ	-	-	r	ɪ	-	u
+t	χ	-	ɛ	ɪ	ʔ	-
+-	-	θ	r	ɪ	-	u
+t	χ	ɛ	ɪ	ʔ	-
+-	θ	r	ɪ	-	u
+t	χ	ɛ	ɪ	ʔ	-
+θ	-	r	ɪ	-	u
+t	-	χ	ɛ	ɪ	ʔ	-
+-	θ	r	-	ɪ	-	u
+t	χ	ɛ	ɪ	ʔ	-
+θ	r	-	ɪ	-	u
+-	t	χ	ɛ	ɪ	ʔ	-
+θ	r	-	-	ɪ	-	u
+t	χ	ɛ	-	-	ɪ	ʔ
+-	-	-	θ	r	ɪ	u
+t	χ	ɛ	-	ɪ	ʔ
+-	-	θ	r	ɪ	u
+t	χ	ɛ	-	ɪ	ʔ
+-	θ	-	r	ɪ	u
+t	χ	ɛ	-	ɪ	ʔ
+θ	-	-	r	ɪ	u
+t	χ	-	ɛ	ɪ	ʔ
+-	-	θ	r	ɪ	u
+t	χ	ɛ	ɪ	ʔ
+-	θ	r	ɪ	u
+t	χ	ɛ	ɪ	ʔ
+θ	-	r	ɪ	u
+t	-	χ	ɛ	ɪ	ʔ
+-	θ	r	-	ɪ	u
+t	χ	ɛ	ɪ	ʔ
+θ	r	-	ɪ	u
+-	t	χ	ɛ	ɪ	ʔ
+θ	r	-	-	ɪ	u
+three: [28, 24, 22, 21, 23, 17, 16, 23, 16, 22, 24, 20, 18, 17, 19, 13, 12, 19, 12, 18]
+
+l	a	ʔ	ŋ	-
+l	a	-	ŋ	k
+long: [8]
+
+s	t	ɔ	ʔ	-	m
+s	t	ɔ	-	r	m
+s	t	ɔ	ʔ	m
+s	t	ɔ	r	m
+storm: [8, 3]
+
+h	ʊ	-	n	ʁ	œ	-	-	-	-
+h	-	ʏ	n	-	-	d	r	a	θ
+h	ʊ	n	ʁ	œ	-	-	-	-
+h	ʏ	n	-	-	d	r	a	θ
+h	ʊ	-	n	ʁ	œ	-	-	-
+h	-	ʏ	n	-	d	r	a	θ
+h	ʊ	n	ʁ	œ	-	-	-
+h	ʏ	n	-	d	r	a	θ
+h	ʊ	-	n	ʁ	œ	-	-	-
+h	-	ʏ	n	d	-	r	a	θ
+h	ʊ	n	ʁ	œ	-	-	-
+h	ʏ	n	d	-	r	a	θ
+h	ʊ	-	n	ʁ	-	œ	-	-
+h	-	ʏ	n	-	d	r	a	θ
+h	ʊ	n	ʁ	-	œ	-	-
+h	ʏ	n	-	d	r	a	θ
+h	ʊ	-	n	ʁ	œ	-	-
+h	-	ʏ	n	d	r	a	θ
+h	ʊ	n	ʁ	œ	-	-
+h	ʏ	n	d	r	a	θ
+h	ʊ	-	n	-	ʁ	œ	-	-
+h	-	ʏ	n	d	r	-	a	θ
+h	ʊ	n	-	ʁ	œ	-	-
+h	ʏ	n	d	r	-	a	θ
+h	ʊ	-	n	ʁ	-	-	œ	-
+h	-	ʏ	n	-	d	r	a	θ
+h	ʊ	n	ʁ	-	-	œ	-
+h	ʏ	n	-	d	r	a	θ
+h	ʊ	-	n	ʁ	-	œ	-
+h	-	ʏ	n	d	r	a	θ
+h	ʊ	n	ʁ	-	œ	-
+h	ʏ	n	d	r	a	θ
+h	ʊ	-	n	-	ʁ	œ	-
+h	-	ʏ	n	d	r	a	θ
+h	ʊ	n	-	ʁ	œ	-
+h	ʏ	n	d	r	a	θ
+h	ʊ	-	n	-	-	ʁ	œ	-
+h	-	ʏ	n	d	r	a	-	θ
+h	ʊ	n	-	-	ʁ	œ	-
+h	ʏ	n	d	r	a	-	θ
+h	ʊ	-	n	ʁ	-	-	-	œ
+h	-	ʏ	n	-	d	r	a	θ
+h	ʊ	n	ʁ	-	-	-	œ
+h	ʏ	n	-	d	r	a	θ
+h	ʊ	-	n	ʁ	-	-	œ
+h	-	ʏ	n	d	r	a	θ
+h	ʊ	n	ʁ	-	-	œ
+h	ʏ	n	d	r	a	θ
+h	ʊ	-	n	-	ʁ	-	œ
+h	-	ʏ	n	d	r	a	θ
+h	ʊ	n	-	ʁ	-	œ
+h	ʏ	n	d	r	a	θ
+h	ʊ	-	n	-	-	ʁ	œ
+h	-	ʏ	n	d	r	a	θ
+h	ʊ	n	-	-	ʁ	œ
+h	ʏ	n	d	r	a	θ
+h	ʊ	-	n	-	-	-	ʁ	œ
+h	-	ʏ	n	d	r	a	θ	-
+h	ʊ	n	-	-	-	ʁ	œ
+h	ʏ	n	d	r	a	θ	-
+hundred: [32, 27, 28, 23, 26, 21, 28, 23, 22, 17, 25, 20, 28, 23, 22, 17, 21, 16, 26, 21, 29, 24, 23, 18, 22, 17, 23, 18, 26, 21]
+
+k	ɛ	-	l	ʔ	f
+k	-	a	l	-	f
+k	ɛ	l	ʔ	f
+k	a	l	-	f
+calf: [12, 7]
+
+h	u	ɪ	l	-	-	-	-
+h	-	-	-	ø	v	ə	θ
+h	u	ɪ	l	-	-	-
+h	-	-	ø	v	ə	θ
+h	u	ɪ	l	-	-	-
+h	-	ø	-	v	ə	θ
+h	u	ɪ	l	-	-	-
+h	ø	-	-	v	ə	θ
+h	u	ɪ	-	l	-	-
+h	-	-	ø	v	ə	θ
+h	u	ɪ	l	-	-
+h	-	ø	v	ə	θ
+h	u	ɪ	l	-	-
+h	ø	-	v	ə	θ
+h	u	-	ɪ	l	-	-
+h	-	ø	v	-	ə	θ
+h	u	ɪ	l	-	-
+h	ø	v	-	ə	θ
+h	-	u	ɪ	l	-	-
+h	ø	v	-	-	ə	θ
+h	u	ɪ	-	-	l	-
+h	-	-	ø	v	ə	θ
+h	u	ɪ	-	l	-
+h	-	ø	v	ə	θ
+h	u	ɪ	-	l	-
+h	ø	-	v	ə	θ
+h	u	-	ɪ	l	-
+h	-	ø	v	ə	θ
+h	u	ɪ	l	-
+h	ø	v	ə	θ
+h	-	u	ɪ	l	-
+h	ø	v	-	ə	θ
+h	u	-	-	ɪ	l	-
+h	-	ø	v	ə	-	θ
+h	u	-	ɪ	l	-
+h	ø	v	ə	-	θ
+h	-	u	ɪ	l	-
+h	ø	v	ə	-	θ
+h	-	-	u	ɪ	l	-
+h	ø	v	ə	-	-	θ
+h	u	ɪ	-	-	-	l
+h	-	-	ø	v	ə	θ
+h	u	ɪ	-	-	l
+h	-	ø	v	ə	θ
+h	u	ɪ	-	-	l
+h	ø	-	v	ə	θ
+h	u	-	ɪ	-	l
+h	-	ø	v	ə	θ
+h	u	ɪ	-	l
+h	ø	v	ə	θ
+h	-	u	ɪ	-	l
+h	ø	v	-	ə	θ
+h	u	-	-	ɪ	l
+h	-	ø	v	ə	θ
+h	u	-	ɪ	l
+h	ø	v	ə	θ
+h	-	u	ɪ	l
+h	ø	v	ə	θ
+h	-	-	u	ɪ	l
+h	ø	v	ə	-	θ
+h	u	-	-	-	ɪ	l
+h	-	ø	v	ə	θ	-
+h	u	-	-	ɪ	l
+h	ø	v	ə	θ	-
+h	-	u	-	ɪ	l
+h	ø	v	ə	θ	-
+h	-	-	u	ɪ	l
+h	ø	v	ə	θ	-
+h	-	-	-	u	ɪ	l
+h	ø	v	ə	θ	-	-
+head: [28, 22, 24, 22, 23, 19, 17, 23, 17, 22, 22, 18, 16, 17, 11, 16, 22, 16, 16, 23, 22, 18, 16, 17, 11, 16, 16, 10, 10, 17, 23, 17, 17, 18, 24]
+
+n	o	ɔ	ʔ	-	-
+n	-	ɔ	-	r	ð
+n	o	ɔ	ʔ	-
+n	-	ɔ	r	ð
+n	o	ɔ	-	ʔ
+n	-	ɔ	r	ð
+north: [16, 11, 11]
+
+h	ɛ	l	i	-
+h	ɛ	l	-	k
+h	ɛ	l	i
+h	ɛ	l	k
+holy: [8, 5]
+
+n	o	ʔ	-	-	l
+n	-	-	a	ʊ	l
+n	o	ʔ	-	l
+n	-	a	ʊ	l
+n	o	ʔ	-	l
+n	a	-	ʊ	l
+n	o	-	ʔ	l
+n	-	a	ʊ	l
+n	o	ʔ	l
+n	a	ʊ	l
+n	-	o	ʔ	l
+n	a	ʊ	-	l
+needle: [16, 13, 11, 12, 7, 11]
+
+s	ɔ	ʔ	-	-	-
+s	-	-	a	ʊ	r
+s	ɔ	ʔ	-	-
+s	-	a	ʊ	r
+s	ɔ	ʔ	-	-
+s	a	-	ʊ	r
+s	ɔ	-	ʔ	-
+s	-	a	ʊ	r
+s	ɔ	ʔ	-
+s	a	ʊ	r
+s	-	ɔ	ʔ	-
+s	a	ʊ	-	r
+s	ɔ	-	-	ʔ
+s	-	a	ʊ	r
+s	ɔ	-	ʔ
+s	a	ʊ	r
+s	-	ɔ	ʔ
+s	a	ʊ	r
+s	-	-	ɔ	ʔ
+s	a	ʊ	r	-
+sore: [20, 17, 15, 16, 11, 13, 15, 10, 8, 15]
+
+v	a	ʔ	-	m
+v	a	-	r	m
+v	a	ʔ	m
+v	a	r	m
+warm: [8, 3]
+
+l	ɪ	w	ɔ	-	-	-	-
+l	-	-	-	e	v	ʊ	s
+l	ɪ	w	ɔ	-	-	-
+l	-	-	e	v	ʊ	s
+l	ɪ	w	ɔ	-	-	-
+l	-	e	-	v	ʊ	s
+l	ɪ	w	ɔ	-	-	-
+l	e	-	-	v	ʊ	s
+l	ɪ	w	-	ɔ	-	-
+l	-	-	e	v	ʊ	s
+l	ɪ	w	ɔ	-	-
+l	-	e	v	ʊ	s
+l	ɪ	w	ɔ	-	-
+l	e	-	v	ʊ	s
+l	ɪ	-	w	ɔ	-	-
+l	-	e	v	-	ʊ	s
+l	ɪ	w	ɔ	-	-
+l	e	v	-	ʊ	s
+l	-	ɪ	w	ɔ	-	-
+l	e	v	-	-	ʊ	s
+l	ɪ	w	-	-	ɔ	-
+l	-	-	e	v	ʊ	s
+l	ɪ	w	-	ɔ	-
+l	-	e	v	ʊ	s
+l	ɪ	w	-	ɔ	-
+l	e	-	v	ʊ	s
+l	ɪ	-	w	ɔ	-
+l	-	e	v	ʊ	s
+l	ɪ	w	ɔ	-
+l	e	v	ʊ	s
+l	-	ɪ	w	ɔ	-
+l	e	v	-	ʊ	s
+l	ɪ	-	-	w	ɔ	-
+l	-	e	v	ʊ	-	s
+l	ɪ	-	w	ɔ	-
+l	e	v	ʊ	-	s
+l	-	ɪ	w	ɔ	-
+l	e	v	ʊ	-	s
+l	-	-	ɪ	w	ɔ	-
+l	e	v	ʊ	-	-	s
+l	ɪ	w	-	-	-	ɔ
+l	-	-	e	v	ʊ	s
+l	ɪ	w	-	-	ɔ
+l	-	e	v	ʊ	s
+l	ɪ	w	-	-	ɔ
+l	e	-	v	ʊ	s
+l	ɪ	-	w	-	ɔ
+l	-	e	v	ʊ	s
+l	ɪ	w	-	ɔ
+l	e	v	ʊ	s
+l	-	ɪ	w	-	ɔ
+l	e	v	-	ʊ	s
+l	ɪ	-	-	w	ɔ
+l	-	e	v	ʊ	s
+l	ɪ	-	w	ɔ
+l	e	v	ʊ	s
+l	-	ɪ	w	ɔ
+l	e	v	ʊ	s
+l	-	-	ɪ	w	ɔ
+l	e	v	ʊ	-	s
+l	ɪ	-	-	-	w	ɔ
+l	-	e	v	ʊ	s	-
+l	ɪ	-	-	w	ɔ
+l	e	v	ʊ	s	-
+l	-	ɪ	-	w	ɔ
+l	e	v	ʊ	s	-
+l	-	-	ɪ	w	ɔ
+l	e	v	ʊ	s	-
+l	-	-	-	ɪ	w	ɔ
+l	e	v	ʊ	s	-	-
+liver: [28, 24, 23, 23, 23, 18, 18, 21, 16, 23, 21, 16, 16, 14, 9, 16, 21, 16, 16, 22, 24, 19, 19, 17, 12, 19, 17, 12, 12, 18, 23, 18, 18, 17, 23]
+
+d	ɛ	r	ʌ	-	-	-	-	-
+d	-	-	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	ʌ	-	-	-	-
+d	-	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	ʌ	-	-	-	-
+d	-	ɔ	-	t	ɪ	z	̠
+d	ɛ	r	ʌ	-	-	-	-
+d	ɔ	-	-	t	ɪ	z	̠
+d	ɛ	r	-	ʌ	-	-	-
+d	-	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	ʌ	-	-	-
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	ʌ	-	-	-
+d	ɔ	-	t	ɪ	z	̠
+d	ɛ	-	r	ʌ	-	-	-
+d	-	ɔ	t	-	ɪ	z	̠
+d	ɛ	r	ʌ	-	-	-
+d	ɔ	t	-	ɪ	z	̠
+d	-	ɛ	r	ʌ	-	-	-
+d	ɔ	t	-	-	ɪ	z	̠
+d	ɛ	r	-	-	ʌ	-	-
+d	-	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	ʌ	-	-
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	ʌ	-	-
+d	ɔ	-	t	ɪ	z	̠
+d	ɛ	-	r	ʌ	-	-
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	ʌ	-	-
+d	ɔ	t	ɪ	z	̠
+d	-	ɛ	r	ʌ	-	-
+d	ɔ	t	-	ɪ	z	̠
+d	ɛ	-	-	r	ʌ	-	-
+d	-	ɔ	t	ɪ	-	z	̠
+d	ɛ	-	r	ʌ	-	-
+d	ɔ	t	ɪ	-	z	̠
+d	-	ɛ	r	ʌ	-	-
+d	ɔ	t	ɪ	-	z	̠
+d	-	-	ɛ	r	ʌ	-	-
+d	ɔ	t	ɪ	-	-	z	̠
+d	ɛ	r	-	-	-	ʌ	-
+d	-	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	-	ʌ	-
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	-	ʌ	-
+d	ɔ	-	t	ɪ	z	̠
+d	ɛ	-	r	-	ʌ	-
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	ʌ	-
+d	ɔ	t	ɪ	z	̠
+d	-	ɛ	r	-	ʌ	-
+d	ɔ	t	-	ɪ	z	̠
+d	ɛ	-	-	r	ʌ	-
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	-	r	ʌ	-
+d	ɔ	t	ɪ	z	̠
+d	-	ɛ	r	ʌ	-
+d	ɔ	t	ɪ	z	̠
+d	-	-	ɛ	r	ʌ	-
+d	ɔ	t	ɪ	-	z	̠
+d	ɛ	-	-	-	r	ʌ	-
+d	-	ɔ	t	ɪ	z	-	̠
+d	ɛ	-	-	r	ʌ	-
+d	ɔ	t	ɪ	z	-	̠
+d	-	ɛ	-	r	ʌ	-
+d	ɔ	t	ɪ	z	-	̠
+d	-	-	ɛ	r	ʌ	-
+d	ɔ	t	ɪ	z	-	̠
+d	-	-	-	ɛ	r	ʌ	-
+d	ɔ	t	ɪ	z	-	-	̠
+d	ɛ	r	-	-	-	-	ʌ
+d	-	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	-	-	ʌ
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	-	-	ʌ
+d	ɔ	-	t	ɪ	z	̠
+d	ɛ	-	r	-	-	ʌ
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	r	-	-	ʌ
+d	ɔ	t	ɪ	z	̠
+d	-	ɛ	r	-	-	ʌ
+d	ɔ	t	-	ɪ	z	̠
+d	ɛ	-	-	r	-	ʌ
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	-	r	-	ʌ
+d	ɔ	t	ɪ	z	̠
+d	-	ɛ	r	-	ʌ
+d	ɔ	t	ɪ	z	̠
+d	-	-	ɛ	r	-	ʌ
+d	ɔ	t	ɪ	-	z	̠
+d	ɛ	-	-	-	r	ʌ
+d	-	ɔ	t	ɪ	z	̠
+d	ɛ	-	-	r	ʌ
+d	ɔ	t	ɪ	z	̠
+d	-	ɛ	-	r	ʌ
+d	ɔ	t	ɪ	z	̠
+d	-	-	ɛ	r	ʌ
+d	ɔ	t	ɪ	z	̠
+d	-	-	-	ɛ	r	ʌ
+d	ɔ	t	ɪ	z	-	̠
+d	ɛ	-	-	-	-	r	ʌ
+d	-	ɔ	t	ɪ	z	̠	-
+d	ɛ	-	-	-	r	ʌ
+d	ɔ	t	ɪ	z	̠	-
+d	-	ɛ	-	-	r	ʌ
+d	ɔ	t	ɪ	z	̠	-
+d	-	-	ɛ	-	r	ʌ
+d	ɔ	t	ɪ	z	̠	-
+d	-	-	-	ɛ	r	ʌ
+d	ɔ	t	ɪ	z	̠	-
+d	-	-	-	-	ɛ	r	ʌ
+d	ɔ	t	ɪ	z	̠	-	-
+daughter: [32, 25, 27, 26, 27, 22, 21, 26, 20, 28, 26, 21, 20, 20, 14, 22, 26, 20, 22, 25, 26, 21, 20, 20, 14, 22, 20, 14, 16, 19, 25, 19, 21, 18, 27, 74, 69, 68, 68, 62, 70, 68, 62, 64, 67, 67, 61, 63, 60, 69, 74, 68, 70, 67, 69, 74]
+
+ʔ	y	ɔ	-	-	-	-
+-	-	-	ɛ	ɪ	r	a
+ʔ	y	ɔ	-	-	-
+-	-	ɛ	ɪ	r	a
+ʔ	y	ɔ	-	-	-
+-	ɛ	-	ɪ	r	a
+ʔ	y	ɔ	-	-	-
+ɛ	-	-	ɪ	r	a
+ʔ	y	-	ɔ	-	-
+-	-	ɛ	ɪ	r	a
+ʔ	y	ɔ	-	-
+-	ɛ	ɪ	r	a
+ʔ	y	ɔ	-	-
+ɛ	-	ɪ	r	a
+ʔ	-	y	ɔ	-	-
+-	ɛ	ɪ	-	r	a
+ʔ	y	ɔ	-	-
+ɛ	ɪ	-	r	a
+-	ʔ	y	ɔ	-	-
+ɛ	ɪ	-	-	r	a
+ʔ	y	-	-	ɔ	-
+-	-	ɛ	ɪ	r	a
+ʔ	y	-	ɔ	-
+-	ɛ	ɪ	r	a
+ʔ	y	-	ɔ	-
+ɛ	-	ɪ	r	a
+ʔ	-	y	ɔ	-
+-	ɛ	ɪ	r	a
+ʔ	y	ɔ	-
+ɛ	ɪ	r	a
+-	ʔ	y	ɔ	-
+ɛ	ɪ	-	r	a
+ʔ	-	-	y	ɔ	-
+-	ɛ	ɪ	r	-	a
+ʔ	-	y	ɔ	-
+ɛ	ɪ	r	-	a
+-	ʔ	y	ɔ	-
+ɛ	ɪ	r	-	a
+-	-	ʔ	y	ɔ	-
+ɛ	ɪ	r	-	-	a
+ʔ	y	-	-	-	ɔ
+-	-	ɛ	ɪ	r	a
+ʔ	y	-	-	ɔ
+-	ɛ	ɪ	r	a
+ʔ	y	-	-	ɔ
+ɛ	-	ɪ	r	a
+ʔ	-	y	-	ɔ
+-	ɛ	ɪ	r	a
+ʔ	y	-	ɔ
+ɛ	ɪ	r	a
+-	ʔ	y	-	ɔ
+ɛ	ɪ	-	r	a
+ʔ	-	-	y	ɔ
+-	ɛ	ɪ	r	a
+ʔ	-	y	ɔ
+ɛ	ɪ	r	a
+-	ʔ	y	ɔ
+ɛ	ɪ	r	a
+-	-	ʔ	y	ɔ
+ɛ	ɪ	r	-	a
+ʔ	-	-	-	y	ɔ
+-	ɛ	ɪ	r	a	-
+ʔ	-	-	y	ɔ
+ɛ	ɪ	r	a	-
+-	ʔ	-	y	ɔ
+ɛ	ɪ	r	a	-
+-	-	ʔ	y	ɔ
+ɛ	ɪ	r	a	-
+-	-	-	ʔ	y	ɔ
+ɛ	ɪ	r	a	-	-
+ear: [28, 22, 24, 25, 23, 19, 20, 23, 20, 24, 23, 19, 20, 18, 15, 19, 23, 20, 19, 23, 23, 19, 20, 18, 15, 19, 18, 15, 14, 18, 23, 20, 19, 18, 25]
+
+ʔ	-	ɪ	l	ʔ	-	-	-
+-	j	ɪ	-	-	ɛ	t	a
+ʔ	ɪ	l	ʔ	-	-	-
+j	ɪ	-	-	ɛ	t	a
+ʔ	-	ɪ	l	ʔ	-	-
+-	j	ɪ	-	ɛ	t	a
+ʔ	ɪ	l	ʔ	-	-
+j	ɪ	-	ɛ	t	a
+ʔ	-	ɪ	l	ʔ	-	-
+-	j	ɪ	ɛ	-	t	a
+ʔ	ɪ	l	ʔ	-	-
+j	ɪ	ɛ	-	t	a
+ʔ	-	ɪ	l	-	ʔ	-
+-	j	ɪ	-	ɛ	t	a
+ʔ	ɪ	l	-	ʔ	-
+j	ɪ	-	ɛ	t	a
+ʔ	-	ɪ	l	ʔ	-
+-	j	ɪ	ɛ	t	a
+ʔ	ɪ	l	ʔ	-
+j	ɪ	ɛ	t	a
+ʔ	-	ɪ	-	l	ʔ	-
+-	j	ɪ	ɛ	t	-	a
+ʔ	ɪ	-	l	ʔ	-
+j	ɪ	ɛ	t	-	a
+ʔ	-	ɪ	l	-	-	ʔ
+-	j	ɪ	-	ɛ	t	a
+ʔ	ɪ	l	-	-	ʔ
+j	ɪ	-	ɛ	t	a
+ʔ	-	ɪ	l	-	ʔ
+-	j	ɪ	ɛ	t	a
+ʔ	ɪ	l	-	ʔ
+j	ɪ	ɛ	t	a
+ʔ	-	ɪ	-	l	ʔ
+-	j	ɪ	ɛ	t	a
+ʔ	ɪ	-	l	ʔ
+j	ɪ	ɛ	t	a
+ʔ	-	ɪ	-	-	l	ʔ
+-	j	ɪ	ɛ	t	a	-
+ʔ	ɪ	-	-	l	ʔ
+j	ɪ	ɛ	t	a	-
+eat: [28, 23, 25, 20, 23, 18, 21, 16, 16, 11, 22, 17, 25, 20, 20, 15, 19, 14, 23, 18]
+
+n	a	ɪ	ʔ	-	-	l
+n	-	-	-	ɒ	k	l
+n	a	ɪ	ʔ	-	l
+n	-	-	ɒ	k	l
+n	a	ɪ	ʔ	-	l
+n	-	ɒ	-	k	l
+n	a	ɪ	ʔ	-	l
+n	ɒ	-	-	k	l
+n	a	ɪ	-	ʔ	l
+n	-	-	ɒ	k	l
+n	a	ɪ	ʔ	l
+n	-	ɒ	k	l
+n	a	ɪ	ʔ	l
+n	ɒ	-	k	l
+n	a	-	ɪ	ʔ	l
+n	-	ɒ	k	-	l
+n	a	ɪ	ʔ	l
+n	ɒ	k	-	l
+n	-	a	ɪ	ʔ	l
+n	ɒ	k	-	-	l
+nail: [20, 16, 15, 14, 13, 8, 7, 17, 11, 17]
+
+ʔ	o	ɔ	ʔ	-	-
+-	-	ɔ	-	r	θ
+ʔ	o	ɔ	ʔ	-
+-	-	ɔ	r	θ
+ʔ	o	ɔ	-	ʔ
+-	-	ɔ	r	θ
+word: [20, 15, 14]
+
+n	i	ʔ	-	-
+n	i	-	j	ʏ
+n	i	ʔ	-
+n	i	j	ʏ
+n	i	-	ʔ
+n	i	j	ʏ
+nine: [12, 7, 9]
+
+-	j	ɛ	ə	d	ə	-	-	-	-
+h	j	-	-	-	-	a	s	t	a
+-	j	ɛ	ə	d	ə	-	-	-
+h	j	-	-	-	a	s	t	a
+-	j	ɛ	ə	d	ə	-	-	-
+h	j	-	-	a	-	s	t	a
+-	j	ɛ	ə	d	ə	-	-	-
+h	j	-	a	-	-	s	t	a
+-	j	ɛ	ə	d	ə	-	-	-
+h	j	a	-	-	-	s	t	a
+-	j	ɛ	ə	d	-	ə	-	-
+h	j	-	-	-	a	s	t	a
+-	j	ɛ	ə	d	ə	-	-
+h	j	-	-	a	s	t	a
+-	j	ɛ	ə	d	ə	-	-
+h	j	-	a	-	s	t	a
+-	j	ɛ	ə	d	ə	-	-
+h	j	a	-	-	s	t	a
+-	j	ɛ	ə	-	d	ə	-	-
+h	j	-	-	a	s	-	t	a
+-	j	ɛ	ə	d	ə	-	-
+h	j	-	a	s	-	t	a
+-	j	ɛ	ə	d	ə	-	-
+h	j	a	-	s	-	t	a
+-	j	ɛ	-	ə	d	ə	-	-
+h	j	-	a	s	-	-	t	a
+-	j	ɛ	ə	d	ə	-	-
+h	j	a	s	-	-	t	a
+-	j	-	ɛ	ə	d	ə	-	-
+h	j	a	s	-	-	-	t	a
+-	j	ɛ	ə	d	-	-	ə	-
+h	j	-	-	-	a	s	t	a
+-	j	ɛ	ə	d	-	ə	-
+h	j	-	-	a	s	t	a
+-	j	ɛ	ə	d	-	ə	-
+h	j	-	a	-	s	t	a
+-	j	ɛ	ə	d	-	ə	-
+h	j	a	-	-	s	t	a
+-	j	ɛ	ə	-	d	ə	-
+h	j	-	-	a	s	t	a
+-	j	ɛ	ə	d	ə	-
+h	j	-	a	s	t	a
+-	j	ɛ	ə	d	ə	-
+h	j	a	-	s	t	a
+-	j	ɛ	-	ə	d	ə	-
+h	j	-	a	s	-	t	a
+-	j	ɛ	ə	d	ə	-
+h	j	a	s	-	t	a
+-	j	-	ɛ	ə	d	ə	-
+h	j	a	s	-	-	t	a
+-	j	ɛ	ə	-	-	d	ə	-
+h	j	-	-	a	s	t	-	a
+-	j	ɛ	ə	-	d	ə	-
+h	j	-	a	s	t	-	a
+-	j	ɛ	ə	-	d	ə	-
+h	j	a	-	s	t	-	a
+-	j	ɛ	-	ə	d	ə	-
+h	j	-	a	s	t	-	a
+-	j	ɛ	ə	d	ə	-
+h	j	a	s	t	-	a
+-	j	-	ɛ	ə	d	ə	-
+h	j	a	s	-	t	-	a
+-	j	ɛ	-	-	ə	d	ə	-
+h	j	-	a	s	t	-	-	a
+-	j	ɛ	-	ə	d	ə	-
+h	j	a	s	t	-	-	a
+-	j	-	ɛ	ə	d	ə	-
+h	j	a	s	t	-	-	a
+-	j	-	-	ɛ	ə	d	ə	-
+h	j	a	s	t	-	-	-	a
+-	j	ɛ	ə	d	-	-	-	ə
+h	j	-	-	-	a	s	t	a
+-	j	ɛ	ə	d	-	-	ə
+h	j	-	-	a	s	t	a
+-	j	ɛ	ə	d	-	-	ə
+h	j	-	a	-	s	t	a
+-	j	ɛ	ə	d	-	-	ə
+h	j	a	-	-	s	t	a
+-	j	ɛ	ə	-	d	-	ə
+h	j	-	-	a	s	t	a
+-	j	ɛ	ə	d	-	ə
+h	j	-	a	s	t	a
+-	j	ɛ	ə	d	-	ə
+h	j	a	-	s	t	a
+-	j	ɛ	-	ə	d	-	ə
+h	j	-	a	s	-	t	a
+-	j	ɛ	ə	d	-	ə
+h	j	a	s	-	t	a
+-	j	-	ɛ	ə	d	-	ə
+h	j	a	s	-	-	t	a
+-	j	ɛ	ə	-	-	d	ə
+h	j	-	-	a	s	t	a
+-	j	ɛ	ə	-	d	ə
+h	j	-	a	s	t	a
+-	j	ɛ	ə	-	d	ə
+h	j	a	-	s	t	a
+-	j	ɛ	-	ə	d	ə
+h	j	-	a	s	t	a
+-	j	ɛ	ə	d	ə
+h	j	a	s	t	a
+-	j	-	ɛ	ə	d	ə
+h	j	a	s	-	t	a
+-	j	ɛ	-	-	ə	d	ə
+h	j	-	a	s	t	-	a
+-	j	ɛ	-	ə	d	ə
+h	j	a	s	t	-	a
+-	j	-	ɛ	ə	d	ə
+h	j	a	s	t	-	a
+-	j	-	-	ɛ	ə	d	ə
+h	j	a	s	t	-	-	a
+-	j	ɛ	ə	-	-	-	d	ə
+h	j	-	-	a	s	t	a	-
+-	j	ɛ	ə	-	-	d	ə
+h	j	-	a	s	t	a	-
+-	j	ɛ	ə	-	-	d	ə
+h	j	a	-	s	t	a	-
+-	j	ɛ	-	ə	-	d	ə
+h	j	-	a	s	t	a	-
+-	j	ɛ	ə	-	d	ə
+h	j	a	s	t	a	-
+-	j	-	ɛ	ə	-	d	ə
+h	j	a	s	-	t	a	-
+-	j	ɛ	-	-	ə	d	ə
+h	j	-	a	s	t	a	-
+-	j	ɛ	-	ə	d	ə
+h	j	a	s	t	a	-
+-	j	-	ɛ	ə	d	ə
+h	j	a	s	t	a	-
+-	j	-	-	ɛ	ə	d	ə
+h	j	a	s	t	-	a	-
+-	j	ɛ	-	-	-	ə	d	ə
+h	j	-	a	s	t	a	-	-
+-	j	ɛ	-	-	ə	d	ə
+h	j	a	s	t	a	-	-
+-	j	-	ɛ	-	ə	d	ə
+h	j	a	s	t	a	-	-
+-	j	-	-	ɛ	ə	d	ə
+h	j	a	s	t	a	-	-
+-	j	-	-	-	ɛ	ə	d	ə
+h	j	a	s	t	a	-	-	-
+heart: [36, 31, 31, 31, 31, 31, 26, 26, 26, 30, 25, 25, 31, 26, 32, 31, 26, 26, 26, 25, 20, 20, 26, 21, 27, 29, 24, 24, 24, 19, 25, 31, 26, 27, 32, 31, 26, 26, 26, 25, 20, 20, 26, 21, 27, 24, 19, 19, 19, 14, 20, 26, 21, 22, 27, 31, 26, 26, 26, 21, 27, 26, 21, 22, 27, 31, 26, 27, 27, 31]
+
+s	j	u	ʔ	-
+s	j	-	-	œ
+s	j	u	ʔ
+s	j	-	œ
+s	j	u	ʔ
+s	j	œ	-
+seven: [12, 10, 8]
+
+ʔ	ɛ	ɐ	-
+-	ɛ	-	r
+ʔ	ɛ	ɐ
+-	ɛ	r
+is: [12, 7]
+
+h	ɔ	-	n	ɪ	-	ŋ	-
+h	-	ø	n	-	a	ŋ	k
+h	ɔ	n	ɪ	-	ŋ	-
+h	ø	n	-	a	ŋ	k
+h	ɔ	-	n	ɪ	ŋ	-
+h	-	ø	n	a	ŋ	k
+h	ɔ	n	ɪ	ŋ	-
+h	ø	n	a	ŋ	k
+honey: [20, 15, 16, 11]
+
+ʔ	i
+-	i
+in: [4]
+
+s	k	a	-	p
+s	k	a	r	p
+sharp: [4]
+
+h	u	-	n	ʔ	-
+h	-	ʏ	n	-	t
+h	u	n	ʔ	-
+h	ʏ	n	-	t
+h	u	-	n	ʔ
+h	-	ʏ	n	t
+h	u	n	ʔ
+h	ʏ	n	t
+hound: [16, 12, 9, 5]
+
+m	u	ʔ	s
+m	u	-	s
+mouse: [4]
+
+l	a	ʔ	m	-
+l	a	-	m	p
+lamb: [8]
+
+s	ɪ	l	ʔ	-	-	-	-
+s	-	-	-	e	t	j	a
+s	ɪ	l	ʔ	-	-	-
+s	-	-	e	t	j	a
+s	ɪ	l	ʔ	-	-	-
+s	-	e	-	t	j	a
+s	ɪ	l	ʔ	-	-	-
+s	e	-	-	t	j	a
+s	ɪ	l	-	ʔ	-	-
+s	-	-	e	t	j	a
+s	ɪ	l	ʔ	-	-
+s	-	e	t	j	a
+s	ɪ	l	ʔ	-	-
+s	e	-	t	j	a
+s	ɪ	-	l	ʔ	-	-
+s	-	e	t	-	j	a
+s	ɪ	l	ʔ	-	-
+s	e	t	-	j	a
+s	-	ɪ	l	ʔ	-	-
+s	e	t	-	-	j	a
+s	ɪ	l	-	-	ʔ	-
+s	-	-	e	t	j	a
+s	ɪ	l	-	ʔ	-
+s	-	e	t	j	a
+s	ɪ	l	-	ʔ	-
+s	e	-	t	j	a
+s	ɪ	-	l	ʔ	-
+s	-	e	t	j	a
+s	ɪ	l	ʔ	-
+s	e	t	j	a
+s	-	ɪ	l	ʔ	-
+s	e	t	-	j	a
+s	ɪ	-	-	l	ʔ	-
+s	-	e	t	j	-	a
+s	ɪ	-	l	ʔ	-
+s	e	t	j	-	a
+s	-	ɪ	l	ʔ	-
+s	e	t	j	-	a
+s	-	-	ɪ	l	ʔ	-
+s	e	t	j	-	-	a
+s	ɪ	l	-	-	-	ʔ
+s	-	-	e	t	j	a
+s	ɪ	l	-	-	ʔ
+s	-	e	t	j	a
+s	ɪ	l	-	-	ʔ
+s	e	-	t	j	a
+s	ɪ	-	l	-	ʔ
+s	-	e	t	j	a
+s	ɪ	l	-	ʔ
+s	e	t	j	a
+s	-	ɪ	l	-	ʔ
+s	e	t	-	j	a
+s	ɪ	-	-	l	ʔ
+s	-	e	t	j	a
+s	ɪ	-	l	ʔ
+s	e	t	j	a
+s	-	ɪ	l	ʔ
+s	e	t	j	a
+s	-	-	ɪ	l	ʔ
+s	e	t	j	-	a
+s	ɪ	-	-	-	l	ʔ
+s	-	e	t	j	a	-
+s	ɪ	-	-	l	ʔ
+s	e	t	j	a	-
+s	-	ɪ	-	l	ʔ
+s	e	t	j	a	-
+s	-	-	ɪ	l	ʔ
+s	e	t	j	a	-
+s	-	-	-	ɪ	l	ʔ
+s	e	t	j	a	-	-
+sit: [28, 25, 23, 23, 21, 16, 16, 22, 17, 24, 23, 18, 18, 17, 12, 19, 21, 16, 17, 21, 25, 20, 20, 19, 14, 21, 18, 13, 14, 18, 23, 18, 19, 16, 24]
+
+s	ɪ	-	k	s
+s	-	ɛ	k	s
+s	ɪ	k	s
+s	ɛ	k	s
+six: [8, 1]
+
+ʔ	i	-	-	-
+-	-	ɛ	ɪ	k
+ʔ	i	-	-
+-	ɛ	ɪ	k
+ʔ	i	-	-
+ɛ	-	ɪ	k
+ʔ	-	i	-
+-	ɛ	ɪ	k
+ʔ	i	-
+ɛ	ɪ	k
+-	ʔ	i	-
+ɛ	ɪ	-	k
+ʔ	-	-	i
+-	ɛ	ɪ	k
+ʔ	-	i
+ɛ	ɪ	k
+-	ʔ	i
+ɛ	ɪ	k
+-	-	ʔ	i
+ɛ	ɪ	k	-
+oak: [20, 15, 17, 14, 11, 16, 17, 14, 13, 13]
+
+s	n	i	ʔ	-	-	-
+s	n	-	-	j	ɔ	ʊ
+s	n	i	ʔ	-	-
+s	n	-	j	ɔ	ʊ
+s	n	i	ʔ	-	-
+s	n	j	-	ɔ	ʊ
+s	n	i	-	ʔ	-
+s	n	-	j	ɔ	ʊ
+s	n	i	ʔ	-
+s	n	j	ɔ	ʊ
+s	n	-	i	ʔ	-
+s	n	j	ɔ	-	ʊ
+s	n	i	-	-	ʔ
+s	n	-	j	ɔ	ʊ
+s	n	i	-	ʔ
+s	n	j	ɔ	ʊ
+s	n	-	i	ʔ
+s	n	j	ɔ	ʊ
+s	n	-	-	i	ʔ
+s	n	j	ɔ	ʊ	-
+snow: [20, 15, 13, 17, 10, 15, 16, 9, 11, 14]
+
+j	a	ɪ	-	-
+j	-	-	ɛ	x
+j	a	ɪ	-
+j	-	ɛ	x
+j	a	ɪ	-
+j	ɛ	-	x
+j	a	-	ɪ
+j	-	ɛ	x
+j	a	ɪ
+j	ɛ	x
+j	-	a	ɪ
+j	ɛ	x	-
+I: [16, 9, 11, 12, 7, 12]
+
+d	ʁ	-	ɛ	k	-
+d	-	r	ɛ	k	a
+d	ʁ	ɛ	k	-
+d	r	ɛ	k	a
+drink: [12, 5]
+
+ʁ	a	ɪ	ʔ	-	-	-	n
+-	-	-	-	r	ɛ	k	n
+ʁ	a	ɪ	ʔ	-	-	n
+-	-	-	r	ɛ	k	n
+ʁ	a	ɪ	ʔ	-	-	n
+-	-	r	-	ɛ	k	n
+ʁ	a	ɪ	ʔ	-	-	n
+-	r	-	-	ɛ	k	n
+ʁ	a	ɪ	ʔ	-	-	n
+r	-	-	-	ɛ	k	n
+ʁ	a	ɪ	-	ʔ	-	n
+-	-	-	r	ɛ	k	n
+ʁ	a	ɪ	ʔ	-	n
+-	-	r	ɛ	k	n
+ʁ	a	ɪ	ʔ	-	n
+-	r	-	ɛ	k	n
+ʁ	a	ɪ	ʔ	-	n
+r	-	-	ɛ	k	n
+ʁ	a	-	ɪ	ʔ	-	n
+-	-	r	ɛ	-	k	n
+ʁ	a	ɪ	ʔ	-	n
+-	r	ɛ	-	k	n
+ʁ	a	ɪ	ʔ	-	n
+r	-	ɛ	-	k	n
+ʁ	-	a	ɪ	ʔ	-	n
+-	r	ɛ	-	-	k	n
+ʁ	a	ɪ	ʔ	-	n
+r	ɛ	-	-	k	n
+-	ʁ	a	ɪ	ʔ	-	n
+r	ɛ	-	-	-	k	n
+ʁ	a	ɪ	-	-	ʔ	n
+-	-	-	r	ɛ	k	n
+ʁ	a	ɪ	-	ʔ	n
+-	-	r	ɛ	k	n
+ʁ	a	ɪ	-	ʔ	n
+-	r	-	ɛ	k	n
+ʁ	a	ɪ	-	ʔ	n
+r	-	-	ɛ	k	n
+ʁ	a	-	ɪ	ʔ	n
+-	-	r	ɛ	k	n
+ʁ	a	ɪ	ʔ	n
+-	r	ɛ	k	n
+ʁ	a	ɪ	ʔ	n
+r	-	ɛ	k	n
+ʁ	-	a	ɪ	ʔ	n
+-	r	ɛ	-	k	n
+ʁ	a	ɪ	ʔ	n
+r	ɛ	-	k	n
+-	ʁ	a	ɪ	ʔ	n
+r	ɛ	-	-	k	n
+ʁ	a	-	-	ɪ	ʔ	n
+-	-	r	ɛ	k	-	n
+ʁ	a	-	ɪ	ʔ	n
+-	r	ɛ	k	-	n
+ʁ	a	-	ɪ	ʔ	n
+r	-	ɛ	k	-	n
+ʁ	-	a	ɪ	ʔ	n
+-	r	ɛ	k	-	n
+ʁ	a	ɪ	ʔ	n
+r	ɛ	k	-	n
+-	ʁ	a	ɪ	ʔ	n
+r	ɛ	-	k	-	n
+ʁ	-	-	a	ɪ	ʔ	n
+-	r	ɛ	k	-	-	n
+ʁ	-	a	ɪ	ʔ	n
+r	ɛ	k	-	-	n
+-	ʁ	a	ɪ	ʔ	n
+r	ɛ	k	-	-	n
+-	-	ʁ	a	ɪ	ʔ	n
+r	ɛ	k	-	-	-	n
+rain: [28, 23, 22, 23, 21, 25, 19, 20, 18, 21, 16, 14, 23, 16, 22, 21, 15, 16, 14, 14, 9, 7, 16, 9, 15, 25, 20, 18, 20, 13, 19, 25, 18, 19, 23]
+
+h	ʊ	ʔ	-	n	-
+h	-	-	œ	n	t
+h	ʊ	ʔ	n	-
+h	-	œ	n	t
+h	ʊ	ʔ	n	-
+h	œ	-	n	t
+hand: [16, 14, 10]
+
+ʔ	o	d	ə	-	-	-	-
+-	-	-	-	a	ʊ	t	a
+ʔ	o	d	ə	-	-	-
+-	-	-	a	ʊ	t	a
+ʔ	o	d	ə	-	-	-
+-	-	a	-	ʊ	t	a
+ʔ	o	d	ə	-	-	-
+-	a	-	-	ʊ	t	a
+ʔ	o	d	ə	-	-	-
+a	-	-	-	ʊ	t	a
+ʔ	o	d	-	ə	-	-
+-	-	-	a	ʊ	t	a
+ʔ	o	d	ə	-	-
+-	-	a	ʊ	t	a
+ʔ	o	d	ə	-	-
+-	a	-	ʊ	t	a
+ʔ	o	d	ə	-	-
+a	-	-	ʊ	t	a
+ʔ	o	-	d	ə	-	-
+-	-	a	ʊ	-	t	a
+ʔ	o	d	ə	-	-
+-	a	ʊ	-	t	a
+ʔ	o	d	ə	-	-
+a	-	ʊ	-	t	a
+ʔ	-	o	d	ə	-	-
+-	a	ʊ	-	-	t	a
+ʔ	o	d	ə	-	-
+a	ʊ	-	-	t	a
+-	ʔ	o	d	ə	-	-
+a	ʊ	-	-	-	t	a
+ʔ	o	d	-	-	ə	-
+-	-	-	a	ʊ	t	a
+ʔ	o	d	-	ə	-
+-	-	a	ʊ	t	a
+ʔ	o	d	-	ə	-
+-	a	-	ʊ	t	a
+ʔ	o	d	-	ə	-
+a	-	-	ʊ	t	a
+ʔ	o	-	d	ə	-
+-	-	a	ʊ	t	a
+ʔ	o	d	ə	-
+-	a	ʊ	t	a
+ʔ	o	d	ə	-
+a	-	ʊ	t	a
+ʔ	-	o	d	ə	-
+-	a	ʊ	-	t	a
+ʔ	o	d	ə	-
+a	ʊ	-	t	a
+-	ʔ	o	d	ə	-
+a	ʊ	-	-	t	a
+ʔ	o	-	-	d	ə	-
+-	-	a	ʊ	t	-	a
+ʔ	o	-	d	ə	-
+-	a	ʊ	t	-	a
+ʔ	o	-	d	ə	-
+a	-	ʊ	t	-	a
+ʔ	-	o	d	ə	-
+-	a	ʊ	t	-	a
+ʔ	o	d	ə	-
+a	ʊ	t	-	a
+-	ʔ	o	d	ə	-
+a	ʊ	-	t	-	a
+ʔ	-	-	o	d	ə	-
+-	a	ʊ	t	-	-	a
+ʔ	-	o	d	ə	-
+a	ʊ	t	-	-	a
+-	ʔ	o	d	ə	-
+a	ʊ	t	-	-	a
+-	-	ʔ	o	d	ə	-
+a	ʊ	t	-	-	-	a
+ʔ	o	d	-	-	-	ə
+-	-	-	a	ʊ	t	a
+ʔ	o	d	-	-	ə
+-	-	a	ʊ	t	a
+ʔ	o	d	-	-	ə
+-	a	-	ʊ	t	a
+ʔ	o	d	-	-	ə
+a	-	-	ʊ	t	a
+ʔ	o	-	d	-	ə
+-	-	a	ʊ	t	a
+ʔ	o	d	-	ə
+-	a	ʊ	t	a
+ʔ	o	d	-	ə
+a	-	ʊ	t	a
+ʔ	-	o	d	-	ə
+-	a	ʊ	-	t	a
+ʔ	o	d	-	ə
+a	ʊ	-	t	a
+-	ʔ	o	d	-	ə
+a	ʊ	-	-	t	a
+ʔ	o	-	-	d	ə
+-	-	a	ʊ	t	a
+ʔ	o	-	d	ə
+-	a	ʊ	t	a
+ʔ	o	-	d	ə
+a	-	ʊ	t	a
+ʔ	-	o	d	ə
+-	a	ʊ	t	a
+ʔ	o	d	ə
+a	ʊ	t	a
+-	ʔ	o	d	ə
+a	ʊ	-	t	a
+ʔ	-	-	o	d	ə
+-	a	ʊ	t	-	a
+ʔ	-	o	d	ə
+a	ʊ	t	-	a
+-	ʔ	o	d	ə
+a	ʊ	t	-	a
+-	-	ʔ	o	d	ə
+a	ʊ	t	-	-	a
+ʔ	o	-	-	-	d	ə
+-	-	a	ʊ	t	a	-
+ʔ	o	-	-	d	ə
+-	a	ʊ	t	a	-
+ʔ	o	-	-	d	ə
+a	-	ʊ	t	a	-
+ʔ	-	o	-	d	ə
+-	a	ʊ	t	a	-
+ʔ	o	-	d	ə
+a	ʊ	t	a	-
+-	ʔ	o	-	d	ə
+a	ʊ	-	t	a	-
+ʔ	-	-	o	d	ə
+-	a	ʊ	t	a	-
+ʔ	-	o	d	ə
+a	ʊ	t	a	-
+-	ʔ	o	d	ə
+a	ʊ	t	a	-
+-	-	ʔ	o	d	ə
+a	ʊ	t	-	a	-
+ʔ	-	-	-	o	d	ə
+-	a	ʊ	t	a	-	-
+ʔ	-	-	o	d	ə
+a	ʊ	t	a	-	-
+-	ʔ	-	o	d	ə
+a	ʊ	t	a	-	-
+-	-	ʔ	o	d	ə
+a	ʊ	t	a	-	-
+-	-	-	ʔ	o	d	ə
+a	ʊ	t	a	-	-	-
+eight: [32, 27, 27, 27, 29, 27, 22, 22, 24, 28, 23, 25, 27, 24, 28, 27, 22, 22, 24, 23, 18, 20, 22, 19, 23, 25, 20, 22, 20, 17, 21, 27, 24, 23, 25, 27, 22, 22, 24, 23, 18, 20, 22, 19, 23, 20, 15, 17, 15, 12, 16, 22, 19, 18, 20, 27, 22, 24, 22, 19, 23, 22, 19, 18, 20, 27, 24, 23, 20, 29]
+
+b	l	ʊ	ʔ	ð	-	-	-
+b	l	-	-	-	ɔ	u	θ
+b	l	ʊ	ʔ	ð	-	-
+b	l	-	-	ɔ	u	θ
+b	l	ʊ	ʔ	ð	-	-
+b	l	-	ɔ	-	u	θ
+b	l	ʊ	ʔ	ð	-	-
+b	l	ɔ	-	-	u	θ
+b	l	ʊ	ʔ	-	ð	-
+b	l	-	-	ɔ	u	θ
+b	l	ʊ	ʔ	ð	-
+b	l	-	ɔ	u	θ
+b	l	ʊ	ʔ	ð	-
+b	l	ɔ	-	u	θ
+b	l	ʊ	-	ʔ	ð	-
+b	l	-	ɔ	u	-	θ
+b	l	ʊ	ʔ	ð	-
+b	l	ɔ	u	-	θ
+b	l	-	ʊ	ʔ	ð	-
+b	l	ɔ	u	-	-	θ
+b	l	ʊ	ʔ	-	-	ð
+b	l	-	-	ɔ	u	θ
+b	l	ʊ	ʔ	-	ð
+b	l	-	ɔ	u	θ
+b	l	ʊ	ʔ	-	ð
+b	l	ɔ	-	u	θ
+b	l	ʊ	-	ʔ	ð
+b	l	-	ɔ	u	θ
+b	l	ʊ	ʔ	ð
+b	l	ɔ	u	θ
+b	l	-	ʊ	ʔ	ð
+b	l	ɔ	u	-	θ
+b	l	ʊ	-	-	ʔ	ð
+b	l	-	ɔ	u	θ	-
+b	l	ʊ	-	ʔ	ð
+b	l	ɔ	u	θ	-
+b	l	-	ʊ	ʔ	ð
+b	l	ɔ	u	θ	-
+b	l	-	-	ʊ	ʔ	ð
+b	l	ɔ	u	θ	-	-
+blood: [24, 19, 21, 17, 19, 16, 12, 20, 13, 18, 17, 14, 10, 13, 6, 11, 18, 11, 12, 20]
+
+k	-	n	i	ʔ	-	-
+-	h	n	-	-	e	ə
+k	n	i	ʔ	-	-
+h	n	-	-	e	ə
+k	-	n	i	ʔ	-
+-	h	n	-	e	ə
+k	n	i	ʔ	-
+h	n	-	e	ə
+k	-	n	i	ʔ	-
+-	h	n	e	-	ə
+k	n	i	ʔ	-
+h	n	e	-	ə
+k	-	n	i	-	ʔ
+-	h	n	-	e	ə
+k	n	i	-	ʔ
+h	n	-	e	ə
+k	-	n	i	ʔ
+-	h	n	e	ə
+k	n	i	ʔ
+h	n	e	ə
+k	-	n	-	i	ʔ
+-	h	n	e	ə	-
+k	n	-	i	ʔ
+h	n	e	ə	-
+knee: [24, 18, 21, 15, 17, 11, 20, 14, 13, 7, 19, 13]
+
+-	-	-	t	o	ɐ	n
+θ	ɔ	r	t	-	-	n
+thorn: [20]
+
+t	ɛ	ʔ	-	n
+t	-	-	œ	n
+t	ɛ	ʔ	n
+t	-	œ	n
+t	ɛ	ʔ	n
+t	œ	-	n
+tooth: [12, 10, 5]
+
+m	u	ð	ɔ	-	-	-	-
+m	-	-	ɔ	ʊ	ð	ɪ	r
+m	u	-	-	ð	ɔ	-	-
+m	-	ɔ	ʊ	ð	-	ɪ	r
+m	u	-	ð	ɔ	-	-
+m	ɔ	ʊ	ð	-	ɪ	r
+m	-	u	ð	ɔ	-	-
+m	ɔ	ʊ	ð	-	ɪ	r
+m	u	-	-	ð	ɔ	-
+m	-	ɔ	ʊ	ð	ɪ	r
+m	u	-	ð	ɔ	-
+m	ɔ	ʊ	ð	ɪ	r
+m	-	u	ð	ɔ	-
+m	ɔ	ʊ	ð	ɪ	r
+m	u	-	-	ð	-	ɔ
+m	-	ɔ	ʊ	ð	ɪ	r
+m	u	-	ð	-	ɔ
+m	ɔ	ʊ	ð	ɪ	r
+m	-	u	ð	-	ɔ
+m	ɔ	ʊ	ð	ɪ	r
+mother: [24, 24, 19, 18, 19, 14, 13, 19, 14, 13]
+
+s	ɛ	-	l	ʔ	t
+s	-	a	l	-	t
+s	ɛ	l	ʔ	t
+s	a	l	-	t
+salt: [12, 7]
+
+v	ɪ	ʔ	n	-
+v	ɪ	-	n	t
+wind: [8]
+

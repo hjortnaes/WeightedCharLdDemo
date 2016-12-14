@@ -1,0 +1,380 @@
+ɑ	l
+ɑ	l
+all: [0]
+
+h	ɔ	ŋ	ə
+h	ɔ	ŋ	ə
+hunger: [0]
+
+o	v	ə
+o	v	ə
+over: [0]
+
+m	ə	d
+m	ə	d
+mid: [0]
+
+f	o	u	ə
+f	o	u	ə
+four: [0]
+
+ɔ	v	ə	n
+ɔ	v	ə	n
+oven: [0]
+
+ɛ	ə	θ
+ɛ	ə	θ
+earth: [0]
+
+k	ɛ	u	l
+k	ɛ	u	l
+cold: [0]
+
+m	ɪ	l	c
+m	ɪ	l	c
+milk: [0]
+
+f	a	ð	ə
+f	a	ð	ə
+father: [0]
+
+j	ɔ	ŋ
+j	ɔ	ŋ
+young: [0]
+
+b	ɛ	t	ə
+b	ɛ	t	ə
+better: [0]
+
+w	ɔ	l
+w	ɔ	l
+wool: [0]
+
+g	u	d
+g	u	d
+good: [0]
+
+f	a	e	v
+f	a	e	v
+five: [0]
+
+f	ɔ	t
+f	ɔ	t
+foot: [0]
+
+w	ɑ	n
+w	ɑ	n
+one: [0]
+
+d	e
+d	e
+day: [0]
+
+n	e	̈	ə	m
+n	e	̈	ə	m
+name: [0]
+
+b	ɹ	ɔ	ð	ə
+b	ɹ	ɔ	ð	ə
+brother: [0]
+
+n	e	̈	k	ə	t
+n	e	̈	k	ə	t
+naked: [0]
+
+u	n	ɛ	u	i	t	u
+u	n	ɛ	u	i	t	u
+night: [0]
+
+b	o	ə	n
+b	o	ə	n
+bone: [0]
+
+ɹ	ɛ	u	i	t
+ɹ	ɛ	u	i	t
+right: [0]
+
+t	ɛ	ə	n
+t	ɛ	ə	n
+ten: [0]
+
+h	ɛ	u	s
+h	ɛ	u	s
+house: [0]
+
+f	ə	ʃ
+f	ə	ʃ
+fish: [0]
+
+h	ɔ	ə	n	̠
+h	ɔ	ə	n	̠
+horn: [0]
+
+g	u	s
+g	u	s
+goose: [0]
+
+j	i	ə
+j	i	ə
+year: [0]
+
+h	o	m
+h	o	m
+home: [0]
+
+ɛ	u	t
+ɛ	u	t
+out: [0]
+
+w	a	t
+w	a	t
+what: [0]
+
+θ	ɔ	n	̪	ə
+θ	ɔ	n	̪	ə
+thunder: [0]
+
+u	ɛ	u	i	s	u
+u	ɛ	u	i	s	u
+ice: [0]
+
+m	u	n
+m	u	n
+moon: [0]
+
+n	j	u
+n	j	u
+new: [0]
+
+f	ɔ	l
+f	ɔ	l
+full: [0]
+
+k	ɔ	ə	n	̠
+k	ɔ	ə	n	̠
+corn: [0]
+
+a	ɪ	ʃ
+a	ɪ	ʃ
+ash: [0]
+
+s	t	o	ə	n
+s	t	o	ə	n
+stone: [0]
+
+j	a	ɹ	d
+j	a	ɹ	d
+yard: [0]
+
+k	ɛ	u
+k	ɛ	u
+cow: [0]
+
+s	w	ɛ	ə
+s	w	ɛ	ə
+swear: [0]
+
+t	ɔ	ŋ
+t	ɔ	ŋ
+tongue: [0]
+
+b	ɑ	θ
+b	ɑ	θ
+bath: [0]
+
+t	u
+t	u
+two: [0]
+
+w	a	ɪ	ʃ
+w	a	ɪ	ʃ
+wash: [0]
+
+ɹ	ɪ	ŋ
+ɹ	ɪ	ŋ
+ring: [0]
+
+o	p	ə	n
+o	p	ə	n
+open: [0]
+
+ɛ	i
+ɛ	i
+eye: [0]
+
+b	ɛ	i	t
+b	ɛ	i	t
+bite: [0]
+
+θ	r	i
+θ	r	i
+three: [0]
+
+l	ɔ	ŋ
+l	ɔ	ŋ
+long: [0]
+
+s	t	ɔ	ə	m
+s	t	ɔ	ə	m
+storm: [0]
+
+h	ɔ	n	̪	ə	d
+h	ɔ	n	̪	ə	d
+hundred: [0]
+
+k	ɑ	v
+k	ɑ	v
+calf: [0]
+
+h	ɛ	ə	d
+h	ɛ	ə	d
+head: [0]
+
+n	ɔ	ə	θ
+n	ɔ	ə	θ
+north: [0]
+
+h	o	l	e
+h	o	l	e
+holy: [0]
+
+n	i	d	l	̩
+n	i	d	l	̩
+needle: [0]
+
+s	o	u	ə
+s	o	u	ə
+sore: [0]
+
+w	a	ɹ	ə	m
+w	a	ɹ	ə	m
+warm: [0]
+
+l	ə	v	ə
+l	ə	v	ə
+liver: [0]
+
+d	ɔ	t	ə
+d	ɔ	t	ə
+daughter: [0]
+
+i	ə
+i	ə
+ear: [0]
+
+e	̈	t
+e	̈	t
+eat: [0]
+
+n	e	̈	ə	l
+n	e	̈	ə	l
+nail: [0]
+
+w	ɔ	ɹ	d
+w	ɔ	ɹ	d
+word: [0]
+
+n	ɛ	i	n
+n	ɛ	i	n
+nine: [0]
+
+h	a	ɹ	t
+h	a	ɹ	t
+heart: [0]
+
+s	ɛ	v	ə	n
+s	ɛ	v	ə	n
+seven: [0]
+
+ə	z
+ə	z
+is: [0]
+
+h	ɔ	n	e
+h	ɔ	n	e
+honey: [0]
+
+ə	n
+ə	n
+in: [0]
+
+ʃ	a	ɹ	p
+ʃ	a	ɹ	p
+sharp: [0]
+
+h	ɛ	u	n
+h	ɛ	u	n
+hound: [0]
+
+m	ɛ	u	s
+m	ɛ	u	s
+mouse: [0]
+
+l	ɑ	m
+l	ɑ	m
+lamb: [0]
+
+s	ə	t
+s	ə	t
+sit: [0]
+
+s	ɪ	k	s
+s	ɪ	k	s
+six: [0]
+
+o	k
+o	k
+oak: [0]
+
+s	n	o	̞	u
+s	n	o	̞	u
+snow: [0]
+
+a	e
+a	e
+I: [0]
+
+d	r	ɪ	ŋ	c
+d	r	ɪ	ŋ	c
+drink: [0]
+
+ɹ	e	̈	ə	n
+ɹ	e	̈	ə	n
+rain: [0]
+
+h	ɑ	n
+h	ɑ	n
+hand: [0]
+
+e	̈	t
+e	̈	t
+eight: [0]
+
+b	l	ɔ	d
+b	l	ɔ	d
+blood: [0]
+
+n	i
+n	i
+knee: [0]
+
+θ	ɔ	ə	n	̠
+θ	ɔ	ə	n	̠
+thorn: [0]
+
+t	u	θ
+t	u	θ
+tooth: [0]
+
+m	ɔ	ð	ə
+m	ɔ	ð	ə
+mother: [0]
+
+s	a	l	t
+s	a	l	t
+salt: [0]
+
+w	ɛ	i	n
+w	ɛ	i	n
+wind: [0]
+
