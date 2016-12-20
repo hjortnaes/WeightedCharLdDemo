@@ -53,7 +53,7 @@ char_map = {
     }
 
 #i, ɪ, y, ʏ, u, ʊ, e, ɛ, ø, œ, o, ɔ, ɤ, ʌ, ɚ, a, æ, ɐ, ɑ, ɒ, m, b, p, β, f, v, w, n, d, t, θ, ð, s, z, ʃ, ʒ, l, ɾ, ɹ, ŋ, g, k, x, ɣ, j, ʁ, h, ɦ, ʔ
-__sub_graph__ = {
+__sub_graph = {
     u"i":[u"y", u"e", u"j"],
     u"ɪ":[u"ʏ", u"ɛ", u"j"],
     u"y":[u"i", u"u", u"ʊ", u"ø"],
@@ -111,6 +111,36 @@ __sub_graph__ = {
     u"ʔ":[u"p", u"t", u"ŋ", u"q", u"c", u"k", u"h"]
     }
 
+__equal_chars = {
+    u"i":[u"ɪ"],
+    u"ɪ":[u"i"],
+    u"y":[u"ʏ"],
+    u"ʏ":[u"y"],
+    u"u":[u"ʊ"],
+    u"ʊ":[u"u"],
+    u"e":[u"ɛ"],
+    u"ɛ":[u"e"],
+    u"ø":[u"œ"],
+    u"œ":[u"ø"],
+    u"o":[u"ɔ"],
+    u"ɔ":[u"o"],
+    u"ɤ":[u"ʌ"],
+    u"ʌ":[u"ɤ"],
+    u"a":[u"æ"],
+    u"æ":[u"a"],
+    u"β":[u"v"],
+    u"v":[u"β"],
+    u"θ":[u"s", u"ʃ"],
+    u"ð":[u"z", u"ʒ"],
+    u"s":[u"θ", u"ʃ"],
+    u"z":[u"ð", u"ʒ"],
+    u"ʃ":[u"θ", u"s"],
+    u"ʒ":[u"ð", u"z"],
+    u"l":[u"ɾ", u"ɹ"],
+    u"ɾ":[u"l", u"ɹ"],
+    u"ɹ":[u"l", u"ɾ"]
+    }
+
 def search_sub_graph(a, b):
     '''
     Searches the substitution matrix graph representation to get the edit distance
@@ -122,37 +152,41 @@ def search_sub_graph(a, b):
     if a == b:
         return 0
     
+    #Equal value characters
+    if __equal_chars.has_key(a) and b in __equal_chars[a]:
+        return 0
+    
     #check for diacritic matched with another diacritic or a gap char
-    if (not __sub_graph__.has_key(a) or a == '-') and (not __sub_graph__.has_key(b) or b == '-'):
+    if (not __sub_graph.has_key(a) or a == '-') and (not __sub_graph.has_key(b) or b == '-'):
         return 0
     
     #deletion/insertion
     if a == '-' or b == '-':
-        return 1
+        return 4
     
     queue = Queue()
     searched = {a:0}
     curr_char = a
     curr_tuple = (a, 0)
     
-    #Check if the character is not in the graph
-    if not __sub_graph__.has_key(a):
+    #Check if the character is not in the graph - this should not be possible
+    if not __sub_graph.has_key(a):
         if not a in missing_chars:
             missing_chars.append(a)
             print "Character " + a + " not found in graph"
-#         raise ValueError("Character " + a + " not found in graph")
-        return 50
-    if not __sub_graph__.has_key(b): 
+        raise ValueError("Character " + a + " not found in graph")
+#         return 50
+    if not __sub_graph.has_key(b): 
         if not b in missing_chars:
             missing_chars.append(b)
             print "Character " + b + " not found in graph"
-#         raise ValueError("Character " + a + " not found in graph")
-        return 50
+        raise ValueError("Character " + a + " not found in graph")
+#         return 50
     
     #breadth first search
     while True:
         #Check the first characters and add them to the queue
-        for char in __sub_graph__[curr_char]:
+        for char in __sub_graph[curr_char]:
             #only add unsearched characters to prevent cycles
             if not searched.has_key(char):
                 if char == b:

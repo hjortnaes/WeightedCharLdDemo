@@ -14,18 +14,20 @@ import glob
 import sys
 import codecs
 
-from Bio import Seq, pairwise2
+from Bio import Seq, pairwise2, Phylo
+from Bio.Phylo.TreeConstruction import _DistanceMatrix, DistanceTreeConstructor
 
 from distance import *
 from distance.norm_char_lev_dis import *
 from distance.character_map import missing_chars
 from main.runner import *
 from Bio.FSSP.fssp_rec import align
-from _sqlite3 import Row
-from numpy.random.mtrand import normal
+from algorithm.clustering import neighbor
 
 
 if __name__ == "__main__":
+    
+    lang_dist = None
     
     print """
     Welcome to the Best Lexicostatistics Project ever.
@@ -38,15 +40,18 @@ if __name__ == "__main__":
         print """
         Choose an option:
         (1) Compare Languages
-        (2) Print a Tree (Not yet supported)
+        (2) Print a Tree
         (3) Exit the Program
         """
         user_in = input()
         
         if user_in == 1:
-            lang_compare()
+            lang_dist = lang_compare()
         elif user_in == 2:
-            build_tree()
+            if not lang_dist is None:
+                build_tree(lang_dist[0], lang_dist[1])
+            else:
+                print "Run a comparison to generate the distance matrix first\n"
             #do the second thing
         elif user_in == 3:
             sys.exit(0)
@@ -66,7 +71,7 @@ def lang_compare():
         if user_in > 0 and user_in < 4:
             #import files
             word_sets = __read_files()
-            dist_matrix = [[0 for y in range(len(word_sets))] for x in range(len(word_sets))]
+            lang_dist = [[0 for y in range(len(word_sets))] for x in range(len(word_sets))]
             
             #list of languages in order they will be processed - python items() correspond
             languages = word_sets.keys()
@@ -78,37 +83,91 @@ def lang_compare():
                     j += i
                     lang_total = __compare_word_lists(user_in, languages[i] + "_" + languages[j], word_sets[languages[i]], word_sets[languages[j]])
                     #fill in both halves of matrix
-                    dist_matrix[i][j] = lang_total
-                    dist_matrix[j][i] = lang_total
+                    lang_dist[i][j] = lang_total
+                    lang_dist[j][i] = lang_total
                     
             #write the distance matrix to a file
-            with open(r"reports/language_distances/dist_matrix.txt", 'w') as f:
+            with codecs.open(r"reports/language_distances/dist_matrix.txt", 'w', encoding='utf-8') as f:
+                i = 0
                 f.write(str(languages) + "\n")
-                for row in dist_matrix:
-                    f.write("[" + ", ".join(str(i) for i in row) + "]\n")
+                for row in lang_dist:
+                    f.write(languages[i] + "[" + ", ".join(str(i) for i in row) + "]\n")
+                    i += 1
                     
             #write missing_chars to its file
             with codecs.open("reports/missing_chars.txt", 'a', encoding = "utf-8") as missing_file:
                 for thing in missing_chars:
                     missing_file.write(thing + "\n")
-            return
+            return (languages, lang_dist)
         else: 
             print "That is not a valid option. Please choose a valid option\n"
         
     
-def build_tree():
+def build_tree(languages, lang_dist):
     '''
-    Builds a tree and prints it to a specified location. This should use Lingpy becase
-    tree building is hard and lingpy can print trees in various ways for us.
+    Builds a tree and prints it to a specified location. 
     '''
     print """
     Where should the Tree be Printed:
     (1) Console
-    (2) HTML File
-    (3) Text File
+    (2) Text File
+    (3) Both
     """
-    user_in = raw_input()
+    user_in = input()
+    
     #Build and print the tree
+    if user_in > 0 and user_in < 4:
+        #decode the strings in languages
+        for i in range(len(languages)):
+            languages[i] = codecs.encode(languages[i], 'utf-8')
+            
+        #get the lower triangle matrix format
+        for i in range(len(lang_dist)):
+            lang_dist[i] = lang_dist[i][:i + 1]
+            
+        dist_matrix = _DistanceMatrix(languages, lang_dist)
+        
+        tree_constructor = DistanceTreeConstructor()
+        upgma_tree = tree_constructor.upgma(dist_matrix)
+        neighbor_tree = tree_constructor.nj(dist_matrix)
+        
+        if not upgma_tree is None and not neighbor_tree is None:
+            #Draw to the console
+            if user_in == 1:
+                print "upgma tree:\n" 
+                Phylo.draw_ascii(upgma_tree)
+                Phylo.draw(upgma_tree)
+                print "\nneighbor joining tree:\n"
+                Phylo.draw_ascii(neighbor_tree)
+                
+            #draw to the files only
+            elif user_in == 2:
+                with open(r"reports/language_distances/upgma_tree.txt", 'w') as f:
+#                     f.write(str(upgma_tree))
+                    Phylo.draw_ascii(upgma_tree, f)
+                with open(r"reports/language_distances/neighbor_tree.txt", 'w') as f:
+#                     f.write(str(neighbor_tree))
+                    Phylo.draw_ascii(neighbor_tree, f)
+                    
+            #draw to the files and the console
+            elif user_in == 3:
+                print "upgma tree:\n"
+                Phylo.draw_ascii(upgma_tree)
+                print "\nneighbor joining tree:\n"
+                Phylo.draw_ascii(neighbor_tree)
+                
+                with open(r"reports/language_distances/upgma_tree.txt", 'w') as f:
+#                     f.write(str(upgma_tree))
+                    Phylo.draw_ascii(upgma_tree, f)
+                with open(r"reports/language_distances/neighbor_tree.txt", 'w') as f:
+#                     f.write(str(neighbor_tree))
+                    Phylo.draw_ascii(neighbor_tree, f)
+        
+        else:
+            print "Run a comparison to generate the distance matrix first\n"
+            
+    else:
+        print "That is not a valid option. Please choose a valid option\n"
     
 def __read_files():
     '''
@@ -207,11 +266,11 @@ def __compare_word_lists(user_in, pair, dict_one, dict_two):
             
             for align in alignments:
                 #only take the shortest alignments
-                if len(align[0]) < shortest:
-                    distances = []
-                    shortest = len(align[0])
-                elif len(align[0]) > shortest:
-                    continue
+#                 if len(align[0]) < shortest:
+#                     distances = []
+#                     shortest = len(align[0])
+#                 elif len(align[0]) > shortest:
+#                     continue
                     
 #                 f.write('\t'.join(align[0]) + "\n" + '\t'.join(align[1]) + "\n")
             
@@ -222,7 +281,7 @@ def __compare_word_lists(user_in, pair, dict_one, dict_two):
                 dist = norm_char_lev_dis.get_word_distance(zipped_alignment, normalize_by)
                 distances.append(dist)
                 
-                f.write("alignment:\n{}\n{} distance:{}\n\n".format('\t'.join(align[0]), '\t'.join(align[1]), dist))
+                f.write(u"alignment:\n{}\n{} distance:{}\n\n".format('\t'.join(align[0]), '\t'.join(align[1]), dist))
             total += min(distances)
     return total
     
