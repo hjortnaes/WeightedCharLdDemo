@@ -256,9 +256,9 @@ def __compare_word_lists(user_in, pair, dict_one, dict_two):
             shortest = sys.maxint
             
             if user_in == 2:
-                normalize_by = max(len(dict_one[key]), len(dict_two[key]))
+                normalize_by = float(max(len(dict_one[key]), len(dict_two[key])))
             elif user_in == 3:
-                normalize_by = min(len(dict_one[key]), len(dict_two[key]))
+                normalize_by = float(min(len(dict_one[key]), len(dict_two[key])))
             
             #get the alignments of the words
             alignments = pairwise2.align.globalxx(list(dict_one[key]), list(dict_two[key]), gap_char = ['-'])
